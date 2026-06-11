@@ -1,0 +1,54 @@
+name: 抓取 AI 场景
+
+# 触发：每天 UTC 0 点（北京时间 8 点）定时跑；也可手动触发
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+    inputs:
+      mock:
+        description: "mock 模式（不调 LLM，仅验证链路）"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write   # 允许 Action 提交 scenes.json
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 安装 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 安装依赖
+        run: pip install -r requirements.txt
+
+      - name: 运行抓取
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          HEAT_THRESHOLD: "50"
+          TIME_WINDOW_DAYS: "14"
+        run: |
+          if [ "${{ inputs.mock }}" = "true" ]; then
+            python scripts/crawl.py --mock
+          else
+            python scripts/crawl.py
+          fi
+
+      - name: 提交数据更新
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/scenes.json
+          if git diff --staged --quiet; then
+            echo "无新增场景，跳过提交"
+          else
+            git commit -m "chore: 自动更新场景库 $(date -u +%Y-%m-%d)"
+            git push
+          fi

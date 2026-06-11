@@ -1,0 +1,5 @@
+# crawl.py 仅依赖 Python 标准库（urllib / json / xml），无需第三方包。
+# 如未来要扩展（如更稳的 RSS 解析、HTML 正文提取），可按需启用：
+# feedparser>=6.0      # 更健壮的 RSS/Atom 解析
+# requests>=2.31       # 更友好的 HTTP
+# beautifulsoup4>=4.12 # 人工投喂链接的正文提取

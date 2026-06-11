@@ -1,0 +1,820 @@
+{
+  "meta": {
+    "title": "AI Agent 新场景动态追踪库",
+    "subtitle": "Agent 自动追踪技术社区与社交媒体的 AI 新玩法",
+    "updated_at": "2026-06-11",
+    "version": "2.0"
+  },
+  "categories": [
+    "内容创作",
+    "编程开发",
+    "办公效率",
+    "数据分析",
+    "营销增长",
+    "学习研究",
+    "生活娱乐",
+    "自动化工作流"
+  ],
+  "roles": [
+    "产品经理",
+    "开发者",
+    "运营/营销",
+    "设计师",
+    "学生/研究",
+    "咨询/分析",
+    "创业者",
+    "通用"
+  ],
+  "sources": [
+    "小红书",
+    "即刻",
+    "X/Twitter",
+    "Reddit",
+    "Hacker News",
+    "公众号",
+    "GitHub",
+    "ProductHunt"
+  ],
+  "scenes": [
+    {
+      "name": "AI图像生成与社交媒体自动化",
+      "desc": "介绍Ideogram和Reve的AI图像新方法，以及用Manus自动化社交媒体内容日历",
+      "category": "内容创作",
+      "roles": [
+        "运营/营销",
+        "设计师",
+        "通用"
+      ],
+      "tools": "Ideogram, Reve, Manus",
+      "source": "The Rundown AI",
+      "url": "https://www.therundown.ai/p/ideogram-and-reve-rethink-how-ai-images-get-made",
+      "date": "2026-06-11",
+      "_mentions": 1,
+      "_kind": "newsletter_rss",
+      "id": "sffd44d345b",
+      "heat": 76
+    },
+    {
+      "name": "理解LLM架构的学习工作流",
+      "desc": "介绍一种系统学习开源模型架构的方法，帮助快速掌握新模型",
+      "category": "学习研究",
+      "roles": [
+        "学生/研究",
+        "开发者"
+      ],
+      "tools": "无特定工具",
+      "source": "Ahead of AI",
+      "url": "https://magazine.sebastianraschka.com/p/workflow-for-understanding-llms",
+      "date": "2026-06-11",
+      "_mentions": 1,
+      "_kind": "newsletter_rss",
+      "id": "s3f503c4cc2",
+      "heat": 76
+    },
+    {
+      "name": "ChatGPT Images 2.0 文本生成能力",
+      "desc": "介绍ChatGPT新图像模型能生成清晰文本，可用于设计海报、图文创作等场景。",
+      "category": "内容创作",
+      "roles": [
+        "设计师",
+        "运营/营销",
+        "通用"
+      ],
+      "tools": "ChatGPT Images 2.0, Qwen 3.6 Max, Kimi-K",
+      "source": "Last Week in AI",
+      "url": "https://lastweekin.ai/p/lwiai-podcast-242-chatgpt-images",
+      "date": "2026-06-11",
+      "_mentions": 1,
+      "_kind": "newsletter_rss",
+      "id": "s3dac36b27a",
+      "heat": 76
+    },
+    {
+      "name": "SearchGPT搜索引擎及GPT-4o微调",
+      "desc": "介绍OpenAI新搜索引擎SearchGPT，以及免费微调GPT-4o mini至9月23日的方法",
+      "category": "学习研究",
+      "roles": [
+        "通用"
+      ],
+      "tools": "SearchGPT, GPT-4o mini",
+      "source": "Unwind AI",
+      "url": "https://unwindai.substack.com/p/openais-new-search-engine-searchgpt",
+      "date": "2026-06-11",
+      "_mentions": 1,
+      "_kind": "newsletter_rss",
+      "id": "s82651dc45d",
+      "heat": 76
+    },
+    {
+      "name": "在手机上运行大语言模型",
+      "desc": "介绍如何在手机上本地运行LLM，无需联网，保护隐私。",
+      "category": "自动化工作流",
+      "roles": [
+        "开发者",
+        "通用"
+      ],
+      "tools": "未明确指定",
+      "source": "Unwind AI",
+      "url": "https://unwindai.substack.com/p/run-llms-now-on-your-phone",
+      "date": "2026-06-11",
+      "_mentions": 1,
+      "_kind": "newsletter_rss",
+      "id": "se143f94521",
+      "heat": 76
+    },
+    {
+      "name": "自托管AI代理可观测与控制工具",
+      "desc": "介绍Flightdeck工具，用于监控和管理AI代理行为，提升可控性与透明度。",
+      "category": "自动化工作流",
+      "roles": [
+        "开发者",
+        "产品经理"
+      ],
+      "tools": "Flightdeck",
+      "source": "Hacker News (AI agent)",
+      "url": "https://github.com/flightdeckhq/flightdeck",
+      "date": "2026-06-11",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "s631cf593a7",
+      "heat": 74
+    },
+    {
+      "name": "Fabrika：从代理监控到软件工厂",
+      "desc": "介绍Fabrika工具，用于构建和管理AI代理集群，实现自动化软件开发流程。",
+      "category": "自动化工作流",
+      "roles": [
+        "开发者",
+        "产品经理"
+      ],
+      "tools": "Fabrika",
+      "source": "Hacker News (AI agent)",
+      "url": "https://fabrika-ai.com/",
+      "date": "2026-06-11",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "s024d53da5f",
+      "heat": 74
+    },
+    {
+      "name": "AI Agent 工程化实践指南",
+      "desc": "介绍如何正确构建AI Agent的工程框架，避免常见错误，提升自动化效果。",
+      "category": "自动化工作流",
+      "roles": [
+        "开发者",
+        "产品经理",
+        "创业者"
+      ],
+      "tools": "AI Agent框架, 工程工具",
+      "source": "Hacker News (AI agent)",
+      "url": "https://www.youtube.com/watch?v=zf1mLAdaDug",
+      "date": "2026-06-11",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "sa9466d3302",
+      "heat": 74
+    },
+    {
+      "name": "开源AI股票分析工具",
+      "desc": "用AI加速公司基本面分析，基于彼得·林奇方法，提供开源工具使用。",
+      "category": "学习研究",
+      "roles": [
+        "学生/研究",
+        "通用"
+      ],
+      "tools": "Fundamentalio",
+      "source": "Hacker News (AI agent)",
+      "url": "https://github.com/DjNero11/fundamentalio",
+      "date": "2026-06-11",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "s5fede90224",
+      "heat": 74
+    },
+    {
+      "name": "datasette-agent 0.2a0 工具交互与SQL保存",
+      "desc": "AI工具可向用户提问并暂停执行，支持保存SQL查询需人工确认，提升交互可控性。",
+      "category": "自动化工作流",
+      "roles": [
+        "开发者"
+      ],
+      "tools": "datasette-agent",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Jun/10/datasette-agent/#atom-everything",
+      "date": "2026-06-11",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "sb5f5319d75",
+      "heat": 74
+    },
+    {
+      "name": "DiffusionGemma快速文本生成模型",
+      "desc": "介绍Google新开源模型DiffusionGemma，可通过NVIDIA免费API实现500+ tokens/秒的文本生成。",
+      "category": "内容创作",
+      "roles": [
+        "开发者",
+        "通用"
+      ],
+      "tools": "DiffusionGemma, NVIDIA NIM",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Jun/10/diffusiongemma/#atom-everything",
+      "date": "2026-06-11",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "se062f8a95b",
+      "heat": 74
+    },
+    {
+      "name": "Claude Fable 5 初体验与实操要点",
+      "desc": "介绍新模型特性、安全护栏机制及回退策略，帮助用户了解如何有效使用。",
+      "category": "学习研究",
+      "roles": [
+        "开发者",
+        "通用"
+      ],
+      "tools": "Claude Fable 5, Claude Mythos 5",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Jun/9/claude-fable-5/#atom-everything",
+      "date": "2026-06-11",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "scd27fc3c75",
+      "heat": 74
+    },
+    {
+      "name": "在AgentsView中自定义模型价格",
+      "desc": "介绍如何为未收录的新模型手动设置价格，以便准确追踪token使用成本。",
+      "category": "自动化工作流",
+      "roles": [
+        "开发者",
+        "通用"
+      ],
+      "tools": "AgentsView, Claude Fable 5",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Jun/9/agentsview-custom-model-price/#atom-everything",
+      "date": "2026-06-11",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "sd3723d8f46",
+      "heat": 74
+    },
+    {
+      "id": "s012",
+      "name": "Agent 监听 GitHub 新星标项目并日报推送",
+      "desc": "每天扫描指定 topic 的 trending repo，自动摘要并推送一份 AI 工具日报",
+      "category": "学习研究",
+      "roles": [
+        "开发者",
+        "通用"
+      ],
+      "tools": "GitHub API / LLM",
+      "source": "GitHub",
+      "heat": 72,
+      "url": "https://github.com",
+      "date": "2026-06-11"
+    },
+    {
+      "name": "本地AI模型部署与使用指南",
+      "desc": "介绍如何安装和运行本地AI模型，无需联网，保护隐私，适合个人日常使用。",
+      "category": "自动化工作流",
+      "roles": [
+        "通用"
+      ],
+      "tools": "Ollama, LM Studio, LocalAI",
+      "source": "Matt Wolfe",
+      "url": "https://www.youtube.com/shorts/1greFablcZY",
+      "date": "2026-06-11",
+      "_mentions": 1,
+      "_kind": "youtube",
+      "id": "scc7cfd905c",
+      "heat": 72
+    },
+    {
+      "name": "GitHub AI编码新功能",
+      "desc": "介绍GitHub新AI编码工具，帮助开发者提升编程效率。",
+      "category": "编程开发",
+      "roles": [
+        "开发者"
+      ],
+      "tools": "GitHub",
+      "source": "Matt Wolfe",
+      "url": "https://www.youtube.com/shorts/X9cvCQ3qrVk",
+      "date": "2026-06-11",
+      "_mentions": 1,
+      "_kind": "youtube",
+      "id": "s664168c5b2",
+      "heat": 72
+    },
+    {
+      "name": "Claude Fable 5 完整319页解析",
+      "desc": "提供Claude生成的长篇故事或剧本的详细拆解，帮助用户学习如何用AI创作复杂叙事内容。",
+      "category": "内容创作",
+      "roles": [
+        "学生/研究",
+        "通用"
+      ],
+      "tools": "Claude",
+      "source": "AI Explained",
+      "url": "https://www.youtube.com/watch?v=haK1KoQWm18",
+      "date": "2026-06-11",
+      "_mentions": 1,
+      "_kind": "youtube",
+      "id": "sa17572cd79",
+      "heat": 72
+    },
+    {
+      "name": "Claude Opus 4.8 隐藏功能盘点",
+      "desc": "介绍Claude Opus 4.8的15个易忽略功能及用法，帮助用户充分利用新特性。",
+      "category": "办公效率",
+      "roles": [
+        "通用"
+      ],
+      "tools": "Claude Opus 4.8",
+      "source": "AI Explained",
+      "url": "https://www.youtube.com/watch?v=aJvP3nXWkwM",
+      "date": "2026-06-11",
+      "_mentions": 1,
+      "_kind": "youtube",
+      "id": "s6c40edb5b6",
+      "heat": 72
+    },
+    {
+      "name": "Claude Opus 4.7 性能与使用介绍",
+      "desc": "介绍Claude Opus 4.7的新性能特点及使用方法，帮助用户了解如何利用该工具提升效率。",
+      "category": "办公效率",
+      "roles": [
+        "通用"
+      ],
+      "tools": "Claude Opus 4.7",
+      "source": "AI Explained",
+      "url": "https://www.youtube.com/watch?v=QVJcdfkRpH8",
+      "date": "2026-06-11",
+      "_mentions": 1,
+      "_kind": "youtube",
+      "id": "s96be215c30",
+      "heat": 72
+    },
+    {
+      "name": "构建主动型AI代理与自我改进公司",
+      "desc": "讲解如何利用AI代理实现自动化工作流和公司自我优化，提升效率。",
+      "category": "自动化工作流",
+      "roles": [
+        "开发者",
+        "创业者",
+        "产品经理"
+      ],
+      "tools": "AI代理框架, 自动化工具",
+      "source": "AI Jason",
+      "url": "https://www.youtube.com/watch?v=ikH1--DSzMs",
+      "date": "2026-06-11",
+      "_mentions": 1,
+      "_kind": "youtube",
+      "id": "s0ae6bbd910",
+      "heat": 72
+    },
+    {
+      "name": "用Gemini 3.1生成动画的提示技巧",
+      "desc": "介绍如何通过特定提示词让Gemini 3.1生成高质量动画，提升创作效率。",
+      "category": "内容创作",
+      "roles": [
+        "设计师",
+        "通用"
+      ],
+      "tools": "Gemini 3.1",
+      "source": "AI Jason",
+      "url": "https://www.youtube.com/watch?v=kcOowmrVI7k",
+      "date": "2026-06-11",
+      "_mentions": 1,
+      "_kind": "youtube",
+      "id": "sbcff3912cc",
+      "heat": 72
+    },
+    {
+      "name": "在AMD设备上本地运行AI",
+      "desc": "介绍如何在AMD硬件上配置和运行本地AI模型，无需云服务。",
+      "category": "自动化工作流",
+      "roles": [
+        "开发者",
+        "通用"
+      ],
+      "tools": "AMD ROCm, Ollama, LM Studio",
+      "source": "Sam Witteveen",
+      "url": "https://www.youtube.com/watch?v=PEg08OAht2s",
+      "date": "2026-06-11",
+      "_mentions": 1,
+      "_kind": "youtube",
+      "id": "sb39f5dbd80",
+      "heat": 72
+    },
+    {
+      "name": "OpenShell Agents 智能体工具",
+      "desc": "介绍一款AI智能体工具，可用于自动化任务和提升工作效率",
+      "category": "自动化工作流",
+      "roles": [
+        "通用"
+      ],
+      "tools": "OpenShell Agents",
+      "source": "Sam Witteveen",
+      "url": "https://www.youtube.com/watch?v=0zHNyGFSelA",
+      "date": "2026-06-11",
+      "_mentions": 1,
+      "_kind": "youtube",
+      "id": "s9854dd47df",
+      "heat": 72
+    },
+    {
+      "name": "MiniCPM-V 4.6 轻量视觉模型应用",
+      "desc": "介绍小型视觉模型MiniCPM-V 4.6，可用于智能体视觉识别任务，提升AI代理能力。",
+      "category": "编程开发",
+      "roles": [
+        "开发者",
+        "产品经理"
+      ],
+      "tools": "MiniCPM-V 4.6",
+      "source": "Sam Witteveen",
+      "url": "https://www.youtube.com/watch?v=nEaljlUlqKk",
+      "date": "2026-06-11",
+      "_mentions": 1,
+      "_kind": "youtube",
+      "id": "s150b72fcba",
+      "heat": 72
+    },
+    {
+      "name": "5分钟生成无限Claude视觉内容",
+      "desc": "面向初学者的教程，教你快速用Claude生成大量视觉素材。",
+      "category": "内容创作",
+      "roles": [
+        "设计师",
+        "运营/营销",
+        "通用"
+      ],
+      "tools": "Claude",
+      "source": "The AI Advantage",
+      "url": "https://www.youtube.com/watch?v=oWeAVc_VPSo",
+      "date": "2026-06-11",
+      "_mentions": 1,
+      "_kind": "youtube",
+      "id": "s357945e35b",
+      "heat": 72
+    },
+    {
+      "name": "ChatGPT记忆功能更新与使用技巧",
+      "desc": "介绍ChatGPT记忆功能的新更新，帮助用户更高效地管理对话上下文和个性化设置。",
+      "category": "办公效率",
+      "roles": [
+        "通用"
+      ],
+      "tools": "ChatGPT",
+      "source": "The AI Advantage",
+      "url": "https://www.youtube.com/shorts/09FXcinkQ_o",
+      "date": "2026-06-11",
+      "_mentions": 1,
+      "_kind": "youtube",
+      "id": "sfe34d93bdf",
+      "heat": 72
+    },
+    {
+      "name": "ChatGPT与Claude对比选择指南",
+      "desc": "比较两款AI工具的功能差异，帮助用户根据需求选择合适工具。",
+      "category": "办公效率",
+      "roles": [
+        "通用"
+      ],
+      "tools": "ChatGPT, Claude",
+      "source": "The AI Advantage",
+      "url": "https://www.youtube.com/watch?v=y1I5VAGF3Qs",
+      "date": "2026-06-11",
+      "_mentions": 1,
+      "_kind": "youtube",
+      "id": "sb666cc5821",
+      "heat": 72
+    },
+    {
+      "name": "Claude批量创建AI智能体",
+      "desc": "介绍Claude新功能，可快速生成数百个AI代理，用于自动化任务。",
+      "category": "自动化工作流",
+      "roles": [
+        "开发者",
+        "创业者",
+        "通用"
+      ],
+      "tools": "Claude",
+      "source": "The AI Advantage",
+      "url": "https://www.youtube.com/shorts/7MY2sLpwOGg",
+      "date": "2026-06-11",
+      "_mentions": 1,
+      "_kind": "youtube",
+      "id": "s46c356da16",
+      "heat": 72
+    },
+    {
+      "name": "Claude Fable 新功能体验",
+      "desc": "介绍Claude Fable的发布及其创意玩法，帮助用户探索AI叙事和交互新方式。",
+      "category": "内容创作",
+      "roles": [
+        "通用"
+      ],
+      "tools": "Claude Fable",
+      "source": "Prompt Engineering",
+      "url": "https://www.youtube.com/watch?v=KwQXyyVl2cM",
+      "date": "2026-06-11",
+      "_mentions": 1,
+      "_kind": "youtube",
+      "id": "sa1bcf501f1",
+      "heat": 72
+    },
+    {
+      "name": "Claude自动构建任务执行框架",
+      "desc": "Claude能自动为每个任务生成执行工具链，提升自动化效率。",
+      "category": "自动化工作流",
+      "roles": [
+        "开发者",
+        "通用"
+      ],
+      "tools": "Claude",
+      "source": "Prompt Engineering",
+      "url": "https://www.youtube.com/watch?v=l5rae4LMKBc",
+      "date": "2026-06-11",
+      "_mentions": 1,
+      "_kind": "youtube",
+      "id": "s19f1b3ded4",
+      "heat": 72
+    },
+    {
+      "name": "Claude Opus 4.8 新功能与用法",
+      "desc": "介绍Claude Opus 4.8的更新内容，帮助用户了解新特性并应用到实际工作中",
+      "category": "办公效率",
+      "roles": [
+        "通用"
+      ],
+      "tools": "Claude Opus 4.8",
+      "source": "Prompt Engineering",
+      "url": "https://www.youtube.com/watch?v=NbhNlpRsofY",
+      "date": "2026-06-11",
+      "_mentions": 1,
+      "_kind": "youtube",
+      "id": "sd61f3f5d7a",
+      "heat": 72
+    },
+    {
+      "name": "提示缓存降低AI成本90%",
+      "desc": "利用提示缓存技术，减少重复计算，大幅降低AI调用费用。",
+      "category": "自动化工作流",
+      "roles": [
+        "开发者",
+        "创业者",
+        "通用"
+      ],
+      "tools": "提示缓存技术",
+      "source": "Prompt Engineering",
+      "url": "https://www.youtube.com/watch?v=HDMqDV7mmGo",
+      "date": "2026-06-11",
+      "_mentions": 1,
+      "_kind": "youtube",
+      "id": "s49a40b6561",
+      "heat": 72
+    },
+    {
+      "name": "DeepSeek桌面应用：24/7自进化AI助手",
+      "desc": "介绍DeepSeek桌面版功能，可随时使用并自我进化，提升工作效率。",
+      "category": "办公效率",
+      "roles": [
+        "通用"
+      ],
+      "tools": "DeepSeek",
+      "source": "WorldofAI",
+      "url": "https://www.youtube.com/watch?v=aSZfNC4ZscM",
+      "date": "2026-06-11",
+      "_mentions": 1,
+      "_kind": "youtube",
+      "id": "s7905bfd10a",
+      "heat": 72
+    },
+    {
+      "name": "Gemma 4 12B本地AI编程模型评测",
+      "desc": "介绍Gemma 4 12B作为本地AI编程模型的能力、测试结果及使用方法，适合开发者本地部署。",
+      "category": "编程开发",
+      "roles": [
+        "开发者"
+      ],
+      "tools": "Gemma 4 12B",
+      "source": "WorldofAI",
+      "url": "https://www.youtube.com/watch?v=TpEBYINwokA",
+      "date": "2026-06-11",
+      "_mentions": 1,
+      "_kind": "youtube",
+      "id": "sb87f386cdc",
+      "heat": 72
+    },
+    {
+      "name": "Hermes Agent桌面应用：24/7自进化AI助手",
+      "desc": "介绍一款可全天候运行、自我进化的AI代理桌面应用，用于自动化任务和持续学习。",
+      "category": "自动化工作流",
+      "roles": [
+        "通用"
+      ],
+      "tools": "Hermes Agent",
+      "source": "WorldofAI",
+      "url": "https://www.youtube.com/watch?v=nb5ALoAGAbE",
+      "date": "2026-06-11",
+      "_mentions": 1,
+      "_kind": "youtube",
+      "id": "sef2acd642b",
+      "heat": 72
+    },
+    {
+      "id": "s001",
+      "name": "Cursor + MCP 搭建个人知识库问答 Agent",
+      "desc": "把本地 Markdown 笔记接入 MCP，在 Cursor 里直接问自己的笔记，秒级定位历史决策",
+      "category": "编程开发",
+      "roles": [
+        "开发者",
+        "产品经理"
+      ],
+      "tools": "Cursor / MCP",
+      "source": "X/Twitter",
+      "heat": 71,
+      "url": "https://x.com",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "s006",
+      "name": "多 Agent 协作自动写一篇行业研究报告",
+      "desc": "调研 Agent 搜资料、分析 Agent 提炼、写作 Agent 成稿，三个角色流水线产出 MBB 风格报告",
+      "category": "数据分析",
+      "roles": [
+        "咨询/分析",
+        "创业者"
+      ],
+      "tools": "AutoGen / CrewAI",
+      "source": "GitHub",
+      "heat": 71,
+      "url": "https://github.com",
+      "date": "2026-06-10"
+    },
+    {
+      "id": "s002",
+      "name": "用 Agent 监控竞品定价页并自动预警",
+      "desc": "定时抓取竞品定价页，价格或套餐变动时自动推送提醒到飞书/邮箱",
+      "category": "数据分析",
+      "roles": [
+        "产品经理",
+        "运营/营销"
+      ],
+      "tools": "Browserbase / n8n",
+      "source": "Hacker News",
+      "heat": 70,
+      "url": "https://news.ycombinator.com",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "s011",
+      "name": "用 AI Agent 批量生成并测试 A/B 文案",
+      "desc": "为同一活动生成多版本广告文案，自动接入投放数据回流判断胜出版本",
+      "category": "营销增长",
+      "roles": [
+        "运营/营销",
+        "产品经理"
+      ],
+      "tools": "Claude / GA4",
+      "source": "X/Twitter",
+      "heat": 70,
+      "url": "https://x.com",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "s003",
+      "name": "用 Claude 批量生成小红书笔记文案",
+      "desc": "喂一条爆文结构，让 AI 仿写 20 条不同选题的笔记初稿，再人工挑优",
+      "category": "内容创作",
+      "roles": [
+        "运营/营销",
+        "创业者"
+      ],
+      "tools": "Claude / ChatGPT",
+      "source": "小红书",
+      "heat": 69,
+      "url": "https://www.xiaohongshu.com",
+      "date": "2026-06-08"
+    },
+    {
+      "id": "s013",
+      "name": "用 AI 把长视频自动剪成短视频切片",
+      "desc": "上传播客或长视频，Agent 自动找高光片段、加字幕、配标题，产出多条短视频",
+      "category": "内容创作",
+      "roles": [
+        "运营/营销",
+        "创业者"
+      ],
+      "tools": "Opus Clip / Whisper",
+      "source": "ProductHunt",
+      "heat": 69,
+      "url": "https://www.producthunt.com",
+      "date": "2026-06-08"
+    },
+    {
+      "id": "s004",
+      "name": "用 AI Agent 自动化周报：从日志到初稿",
+      "desc": "抓取一周的 Git 提交与日程记录，自动生成结构化周报草稿，省去回忆时间",
+      "category": "自动化工作流",
+      "roles": [
+        "通用",
+        "产品经理"
+      ],
+      "tools": "Dify / Coze",
+      "source": "即刻",
+      "heat": 68,
+      "url": "https://okjike.com",
+      "date": "2026-06-07"
+    },
+    {
+      "id": "s005",
+      "name": "AI 帮你读完 50 页论文并生成思维导图",
+      "desc": "上传 PDF 论文，自动提炼核心论点、方法、结论并输出结构化思维导图",
+      "category": "学习研究",
+      "roles": [
+        "学生/研究",
+        "咨询/分析"
+      ],
+      "tools": "NotebookLM / Claude",
+      "source": "Reddit",
+      "heat": 67,
+      "url": "https://reddit.com",
+      "date": "2026-06-06"
+    },
+    {
+      "id": "s014",
+      "name": "设计师用 AI Agent 自动生成配色与组件规范",
+      "desc": "输入品牌关键词，自动产出配色方案、字体搭配与基础组件库 token",
+      "category": "办公效率",
+      "roles": [
+        "设计师",
+        "产品经理"
+      ],
+      "tools": "Figma AI / Claude",
+      "source": "即刻",
+      "heat": 67,
+      "url": "https://okjike.com",
+      "date": "2026-06-06"
+    },
+    {
+      "id": "s007",
+      "name": "用 v0 + Claude 一句话生成可上线落地页",
+      "desc": "描述产品卖点，AI 直接产出可部署的响应式落地页代码，10 分钟上线",
+      "category": "编程开发",
+      "roles": [
+        "创业者",
+        "设计师"
+      ],
+      "tools": "v0 / Claude",
+      "source": "ProductHunt",
+      "heat": 66,
+      "url": "https://www.producthunt.com",
+      "date": "2026-06-05"
+    },
+    {
+      "id": "s008",
+      "name": "Agent 自动整理会议录音为待办清单",
+      "desc": "上传会议录音，自动转写、提炼决策点、分配责任人并生成可勾选的待办",
+      "category": "办公效率",
+      "roles": [
+        "产品经理",
+        "通用"
+      ],
+      "tools": "Whisper / GPT-4o",
+      "source": "公众号",
+      "heat": 65,
+      "url": "https://mp.weixin.qq.com",
+      "date": "2026-06-04"
+    },
+    {
+      "id": "s009",
+      "name": "用 AI 做个人财务记账与消费洞察 Agent",
+      "desc": "导入账单截图，自动分类消费、识别异常支出并生成月度财务洞察",
+      "category": "生活娱乐",
+      "roles": [
+        "通用"
+      ],
+      "tools": "GPT-4o Vision",
+      "source": "小红书",
+      "heat": 64,
+      "url": "https://www.xiaohongshu.com",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "s010",
+      "name": "Agent 自动监控简历投递并跟进 HR",
+      "desc": "追踪多平台投递状态，自动起草跟进邮件，到期未回复自动提醒",
+      "category": "自动化工作流",
+      "roles": [
+        "学生/研究",
+        "通用"
+      ],
+      "tools": "n8n / Gmail API",
+      "source": "Reddit",
+      "heat": 63,
+      "url": "https://reddit.com",
+      "date": "2026-06-02"
+    }
+  ]
+}

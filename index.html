@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Agent 新场景动态追踪库</title>
+  <meta name="description" content="Agent 自动追踪技术社区与社交媒体的 AI 新玩法" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand">
+        <div class="logo">A</div>
+        <div class="brand-text">
+          <h1 id="site-title">AI Agent 新场景追踪库</h1>
+          <p id="site-subtitle">Agent 自动追踪技术社区与社交媒体的 AI 新玩法</p>
+        </div>
+      </div>
+      <div class="topbar-right">
+        <div class="stats">
+          <span class="stat"><b id="stat-total">0</b> 个场景</span>
+          <span class="stat-sep"></span>
+          <span class="stat">本周新增 <b id="stat-week">0</b></span>
+        </div>
+        <button id="theme-toggle" class="theme-btn" aria-label="切换主题">
+          <span class="theme-icon"></span>
+        </button>
+      </div>
+    </header>
+
+    <div class="layout">
+      <aside class="sidebar" id="sidebar">
+        <div class="search-box">
+          <input type="search" id="search" placeholder="搜索场景、工具、关键词…" autocomplete="off" />
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-head">
+            <h3>场景分类</h3>
+            <button class="clear-btn" data-clear="category">清除</button>
+          </div>
+          <div class="chips" id="filter-category"></div>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-head">
+            <h3>适用角色</h3>
+            <button class="clear-btn" data-clear="role">清除</button>
+          </div>
+          <div class="chips" id="filter-role"></div>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-head">
+            <h3>数据来源</h3>
+            <button class="clear-btn" data-clear="source">清除</button>
+          </div>
+          <div class="chips" id="filter-source"></div>
+        </div>
+
+        <div class="filter-group">
+          <div class="filter-head"><h3>最低热度</h3></div>
+          <div class="heat-filter">
+            <input type="range" id="heat-range" min="0" max="100" step="5" value="0" />
+            <span id="heat-value">0</span>
+          </div>
+        </div>
+
+        <button class="reset-all" id="reset-all">重置全部筛选</button>
+      </aside>
+
+      <main class="content">
+        <div class="content-head">
+          <div class="result-count"><span id="result-count">0</span> 个匹配结果</div>
+          <div class="sort-tabs">
+            <button class="sort-tab active" data-sort="heat">热度 ↓</button>
+            <button class="sort-tab" data-sort="date">最新 ↓</button>
+          </div>
+        </div>
+        <div class="cards" id="cards"></div>
+        <div class="empty" id="empty" hidden>没有匹配的场景，试试放宽筛选条件。</div>
+      </main>
+    </div>
+
+    <footer class="footer">
+      <span>数据自动追踪 + 人工精选 · 最后更新 <b id="updated-at">—</b></span>
+      <a href="https://github.com" target="_blank" rel="noopener">View on GitHub</a>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

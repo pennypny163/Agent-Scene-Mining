@@ -1,0 +1,70 @@
+{
+  "_comment": "AI 场景追踪库 · 数据源配置。脚本读取此文件决定抓哪些源。enabled=false 的源暂不抓取。",
+  "_updated": "2026-06-11",
+  "youtube": {
+    "_note": "YouTube 每个频道都有原生 RSS，无需 API：https://www.youtube.com/feeds/videos.xml?channel_id=<ID>",
+    "channels": [
+      { "name": "Matt Wolfe", "channel_id": "UChpleBmo18P08aKCIgti38g", "lang": "en", "focus": "AI工具/周报", "enabled": true },
+      { "name": "AI Explained", "channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw", "lang": "en", "focus": "前沿解读", "enabled": true },
+      { "name": "AI Jason", "channel_id": "UCrXSVX9a1mj8l0CMLwKgMVw", "lang": "en", "focus": "Agent/编程实操", "enabled": true },
+      { "name": "Sam Witteveen", "channel_id": "UC55ODQSvARtgSyc8ThfiepQ", "lang": "en", "focus": "LangChain/Agent", "enabled": true },
+      { "name": "The AI Advantage", "channel_id": "UCHhYXsLBEVVnbvsq57n1MTQ", "lang": "en", "focus": "AI生产力", "enabled": true },
+      { "name": "All About AI", "channel_id": "UCR9j1jqqB5Rse69wjUnbYwA", "lang": "en", "focus": "工具实操", "enabled": true },
+      { "name": "Prompt Engineering", "channel_id": "UCDq7SjbgRKty5TgGafW8Clg", "lang": "en", "focus": "提示工程/Agent", "enabled": true },
+      { "name": "WorldofAI", "channel_id": "UC2WmuBuFq6gL08QYG-JjXKw", "lang": "en", "focus": "开源工具", "enabled": true },
+      { "name": "Yannic Kilcher", "channel_id": "UCZHmQk67mSJgfCCTn7xBfew", "lang": "en", "focus": "论文解读", "enabled": false },
+      { "name": "Two Minute Papers", "channel_id": "UCbfYPyITQ-7l4upoX8nvctg", "lang": "en", "focus": "研究速览", "enabled": false }
+    ]
+  },
+  "newsletter_rss": {
+    "_note": "Substack/Beehiiv 类邮件订阅，多数同时提供 RSS，可直接抓 RSS 免去收邮件解析",
+    "feeds": [
+      { "name": "The Rundown AI", "url": "https://rss.beehiiv.com/feeds/2R3C6Bt5wj.xml", "lang": "en", "focus": "每日AI要闻+工具", "enabled": true },
+      { "name": "Latent Space", "url": "https://www.latent.space/feed", "lang": "en", "focus": "工程/Agent深度", "enabled": true },
+      { "name": "One Useful Thing", "url": "https://www.oneusefulthing.org/feed", "lang": "en", "focus": "实操玩法(Ethan Mollick)", "enabled": true },
+      { "name": "Ahead of AI", "url": "https://magazine.sebastianraschka.com/feed", "lang": "en", "focus": "技术深度", "enabled": true },
+      { "name": "Last Week in AI", "url": "https://lastweekin.ai/feed", "lang": "en", "focus": "周报", "enabled": true },
+      { "name": "Unwind AI", "url": "https://unwindai.substack.com/feed", "lang": "en", "focus": "工具/Agent教程", "enabled": true },
+      { "name": "Interconnects", "url": "https://www.interconnects.ai/feed", "lang": "en", "focus": "模型分析", "enabled": false },
+      { "name": "TheSequence", "url": "https://thesequence.substack.com/feed", "lang": "en", "focus": "技术摘要", "enabled": false }
+    ]
+  },
+  "tech_blog_rss": {
+    "_note": "官方博客/聚合，玩法和工具首发地",
+    "feeds": [
+      { "name": "Hacker News (AI agent)", "url": "https://hn.algolia.com/api/v1/search_by_date?query=AI%20agent&tags=story&hitsPerPage=30", "type": "json_api", "fallback": "https://hnrss.org/newest?q=AI+agent", "lang": "en", "focus": "社区热议", "enabled": true },
+      { "name": "Product Hunt", "url": "https://www.producthunt.com/feed", "lang": "en", "focus": "新产品首发", "enabled": true },
+      { "name": "Simon Willison", "url": "https://simonwillison.net/atom/everything/", "lang": "en", "focus": "实操/工具", "enabled": true },
+      { "name": "LangChain Blog", "url": "https://blog.langchain.dev/rss/", "lang": "en", "focus": "Agent框架", "enabled": false, "_note": "2026-06 实测该地址已返回HTML非RSS，暂关闭待找新地址" },
+      { "name": "OpenAI Blog", "url": "https://openai.com/blog/rss/", "lang": "en", "focus": "官方动态", "enabled": false },
+      { "name": "Hugging Face Blog", "url": "https://huggingface.co/blog/feed.xml", "lang": "en", "focus": "开源模型", "enabled": false }
+    ]
+  },
+  "rsshub": {
+    "_note": "RSSHub 把不提供原生 RSS 的网站强制转成 RSS，补齐中文社区源(即刻/36氪/知乎/B站等)与公众号。免费但不稳：官方公网实例 https://rsshub.app 常限流，强烈建议自建 Docker 实例后把 base 换成自己的地址(见 SOURCES.md)。feeds 里 path 拼到 base 后即完整 URL。",
+    "base": "https://rsshub.app",
+    "self_host_recommended": true,
+    "feeds": [
+      { "name": "即刻·AI话题", "path": "/jike/topic/text/55c8f1a6e4b003f7f8d8c0b9", "lang": "zh", "focus": "中文AI玩法分享", "enabled": false },
+      { "name": "36氪·AI", "path": "/36kr/search/articles/AI", "lang": "zh", "focus": "AI产业/产品", "enabled": false },
+      { "name": "知乎·AI热榜", "path": "/zhihu/hotlist", "lang": "zh", "focus": "热议话题", "enabled": false },
+      { "name": "少数派·AI标签", "path": "/sspai/tag/AI", "lang": "zh", "focus": "工具实操/玩法", "enabled": false },
+      { "name": "GitHub Trending(日)", "path": "/github/trending/daily/any", "lang": "en", "focus": "开源趋势", "enabled": false }
+    ]
+  },
+  "wechat_rss": {
+    "_note": "公众号无官方API。两条中转路：① RSSHub 路由 /wechat/... 或 /wechatmp(免费但不稳，路由常失效)；② WeWe RSS 自建(基于微信读书，稳定，需服务器，见 SOURCES.md)。url 为占位，部署后填入实例地址 + 路由。",
+    "method": "RSSHub | WeWe RSS",
+    "feeds": [
+      { "name": "量子位", "wechat_id": "QbitAI", "url": "<RSSHUB_BASE>/wechat/...", "lang": "zh", "focus": "AI产业/应用", "enabled": false },
+      { "name": "机器之心", "wechat_id": "almosthuman2014", "url": "<RSSHUB_BASE>/wechat/...", "lang": "zh", "focus": "技术/研究", "enabled": false },
+      { "name": "新智元", "wechat_id": "AI_era", "url": "<RSSHUB_BASE>/wechat/...", "lang": "zh", "focus": "AI资讯", "enabled": false },
+      { "name": "Founder Park", "wechat_id": "Founder-Park", "url": "<RSSHUB_BASE>/wechat/...", "lang": "zh", "focus": "AI创业/产品", "enabled": false },
+      { "name": "AI产品黄叔", "wechat_id": "", "url": "<RSSHUB_BASE>/wechat/...", "lang": "zh", "focus": "AI产品玩法", "enabled": false }
+    ]
+  },
+  "manual_feed": {
+    "_note": "人工投喂：你刷到好的小红书/任意链接，丢进这里，脚本下次跑时自动结构化入库。这是绕开中文反爬的核心策略。",
+    "pending": []
+  }
+}
