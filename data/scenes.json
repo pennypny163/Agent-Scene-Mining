@@ -2,7 +2,7 @@
   "meta": {
     "title": "AI Agent 新场景动态追踪库",
     "subtitle": "Agent 自动追踪技术社区与社交媒体的 AI 新玩法",
-    "updated_at": "2026-11-07",
+    "updated_at": "2026-11-08",
     "version": "2.0"
   },
   "categories": [
@@ -104,6 +104,23 @@
       "heat": 88
     },
     {
+      "name": "Claude文本水印机制解析",
+      "desc": "48分钟视频讲解token采样、水印检测与去除方法，帮助理解AI文本水印原理",
+      "category": "学习研究",
+      "roles": [
+        "开发者",
+        "学生/研究"
+      ],
+      "tools": "Claude",
+      "source": "Ahead of AI",
+      "url": "https://magazine.sebastianraschka.com/p/claude-watermarking",
+      "date": "2026-11-08",
+      "_mentions": 1,
+      "_kind": "newsletter_rss",
+      "id": "sf82bb396e3",
+      "heat": 76
+    },
+    {
       "name": "用智能体处理长周期金融工作",
       "desc": "介绍用持久记忆与自定义框架让AI智能体跨天完成金融任务",
       "category": "自动化工作流",
@@ -118,24 +135,7 @@
       "_mentions": 1,
       "_kind": "newsletter_rss",
       "id": "s2a15550d0e",
-      "heat": 76
-    },
-    {
-      "name": "一张产品图生成三张棚拍图",
-      "desc": "用 AI 将单张产品照片转化为三张不同风格的棚拍效果图，解决电商产品图制作成本高的问题",
-      "category": "内容创作",
-      "roles": [
-        "运营/营销",
-        "设计师"
-      ],
-      "tools": "AI 图像生成工具",
-      "source": "The Rundown AI",
-      "url": "https://therundownai.beehiiv.com/p/apple-cracks-the-door-open-to-siri-ai",
-      "date": "2026-11-05",
-      "_mentions": 1,
-      "_kind": "newsletter_rss",
-      "id": "s1dff749379",
-      "heat": 74
+      "heat": 75
     },
     {
       "name": "从零构建AI Agent的会话管理",
@@ -271,6 +271,363 @@
       "heat": 74
     },
     {
+      "name": "AI代理通过MCP租用任务的项目看板",
+      "desc": "用MCP协议让AI代理在看板上认领并执行任务，实现多代理协作管理项目",
+      "category": "自动化工作流",
+      "roles": [
+        "开发者",
+        "产品经理"
+      ],
+      "tools": "MarQ, MCP",
+      "source": "Hacker News (AI agent)",
+      "url": "https://www.marqpm.com/",
+      "date": "2026-11-08",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "s2fb3bbe401",
+      "heat": 74
+    },
+    {
+      "name": "Sentient：监控编码代理内核级操作",
+      "desc": "开源本地工具，从内核层监控AI编码代理执行的命令，提供可视化界面并可拦截危险操作。",
+      "category": "编程开发",
+      "roles": [
+        "开发者",
+        "产品经理"
+      ],
+      "tools": "Sentient, Claude Code, Tetragon",
+      "source": "Hacker News (AI agent)",
+      "url": "https://nosaka.ai/sentient/",
+      "date": "2026-11-08",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "sf1022fcfa3",
+      "heat": 74
+    },
+    {
+      "name": "Mellonbot：Linux服务器诊断AI代理",
+      "desc": "AI代理自动诊断Linux服务器问题，帮助运维快速定位故障",
+      "category": "自动化工作流",
+      "roles": [
+        "开发者",
+        "通用"
+      ],
+      "tools": "Mellonbot",
+      "source": "Hacker News (AI agent)",
+      "url": "https://www.mellonbot.app",
+      "date": "2026-11-08",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "sebeb809925",
+      "heat": 74
+    },
+    {
+      "name": "多模型协作重建应用",
+      "desc": "用 Opus 编排 DeepSeek 代理、Sonnet 审查，3 天低成本重建 Conductor 前端",
+      "category": "编程开发",
+      "roles": [
+        "开发者",
+        "创业者"
+      ],
+      "tools": "Claude Opus, DeepSeek, Sonnet, Cloudflar",
+      "source": "Hacker News (AI agent)",
+      "url": "https://github.com/jahala/conducted/",
+      "date": "2026-11-08",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "s5ae6e38f6b",
+      "heat": 74
+    },
+    {
+      "name": "RigHaven自托管AI代理执行框架",
+      "desc": "自托管运行AI代理的执行框架，可本地部署并控制代理任务执行",
+      "category": "自动化工作流",
+      "roles": [
+        "开发者",
+        "创业者"
+      ],
+      "tools": "RigHaven",
+      "source": "Hacker News (AI agent)",
+      "url": "https://github.com/ggmm82/righaven",
+      "date": "2026-11-08",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "s119caf9e87",
+      "heat": 74
+    },
+    {
+      "name": "AI编程代理上下文压缩恢复六项检查",
+      "desc": "上下文压缩后通过六项检查恢复编码代理状态，避免仅靠摘要丢失关键信息",
+      "category": "编程开发",
+      "roles": [
+        "开发者"
+      ],
+      "tools": "AI coding agents",
+      "source": "Hacker News (AI agent)",
+      "url": "https://tobiasuhlig.medium.com/context-compaction-recovery-for-ai-coding-agents-six-checks-not-a-summary-4eb9a1d458b7",
+      "date": "2026-11-08",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "s95a398ff4b",
+      "heat": 74
+    },
+    {
+      "name": "Day AI 用上下文图谱驱动 GTM 智能体",
+      "desc": "为 GTM 团队构建上下文图谱与智能体控制面，统一管理销售营销 AI 智能体的数据与执行",
+      "category": "营销增长",
+      "roles": [
+        "运营/营销",
+        "创业者"
+      ],
+      "tools": "Day AI",
+      "source": "Hacker News (AI agent)",
+      "url": "https://day.ai/",
+      "date": "2026-11-08",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "s6f78d70a38",
+      "heat": 74
+    },
+    {
+      "name": "Chatty开源自主AI聊天代理",
+      "desc": "开源AI聊天代理，支持工具调用，可自主执行任务，适合自部署与二次开发",
+      "category": "自动化工作流",
+      "roles": [
+        "开发者",
+        "创业者"
+      ],
+      "tools": "Chatty",
+      "source": "Hacker News (AI agent)",
+      "url": "https://github.com/PersonaliAI/chatty",
+      "date": "2026-11-08",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "s565cb775ab",
+      "heat": 74
+    },
+    {
+      "name": "Honeycomb团队AI SRE代理",
+      "desc": "用AI代理自动排查生产环境故障，辅助SRE团队定位问题根因",
+      "category": "自动化工作流",
+      "roles": [
+        "开发者",
+        "咨询/分析"
+      ],
+      "tools": "Honeycomb Team Agents",
+      "source": "Hacker News (AI agent)",
+      "url": "https://www.honeycomb.io/blog/honeycomb-team-agents-ai-sre-done-right",
+      "date": "2026-11-08",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "sa7c3da3aad",
+      "heat": 74
+    },
+    {
+      "name": "AI Agent 崩溃安全持久化 Saga 方案",
+      "desc": "为自主 AI Agent 提供崩溃安全的持久化 Saga 事务机制，保障长流程可靠执行",
+      "category": "编程开发",
+      "roles": [
+        "开发者"
+      ],
+      "tools": "Trace",
+      "source": "Hacker News (AI agent)",
+      "url": "https://github.com/orikami048/trace-agent-lang",
+      "date": "2026-11-08",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "sdbee76fc0f",
+      "heat": 74
+    },
+    {
+      "name": "多项目AI代理上下文管理",
+      "desc": "用指令文件、笔记、MCP等方式跨工具跨客户管理AI代理上下文，避免重复解释",
+      "category": "自动化工作流",
+      "roles": [
+        "开发者",
+        "咨询/分析",
+        "通用"
+      ],
+      "tools": "Claude, ChatGPT, Copilot, Cursor, Codex,",
+      "source": "Hacker News (AI agent)",
+      "url": "https://news.ycombinator.com/item?id=50403153",
+      "date": "2026-11-08",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "sc58e3e4e16",
+      "heat": 74
+    },
+    {
+      "name": "远程设备并行执行AI任务平台",
+      "desc": "Rungrid可通过单一界面在多台远程设备上运行和管理AI代理任务，解决分布式并行执行问题",
+      "category": "自动化工作流",
+      "roles": [
+        "开发者",
+        "创业者"
+      ],
+      "tools": "Rungrid",
+      "source": "Hacker News (AI agent)",
+      "url": "https://rungrid.space",
+      "date": "2026-11-08",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "s3b6a667bef",
+      "heat": 74
+    },
+    {
+      "name": "AI Agent 依赖管理器 APM",
+      "desc": "像包管理器一样为 AI Agent 安装、管理依赖与工具，简化 Agent 构建流程",
+      "category": "编程开发",
+      "roles": [
+        "开发者"
+      ],
+      "tools": "APM",
+      "source": "Hacker News (AI agent)",
+      "url": "https://microsoft.github.io/apm/",
+      "date": "2026-11-08",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "sb12285b688",
+      "heat": 74
+    },
+    {
+      "name": "Gemini Omni 1.2 Flash 生成15秒AI视频",
+      "desc": "用Gemini Omni 1.2 Flash生成15秒AI视频，每秒成本仅0.07美元，适合低成本短视频创作",
+      "category": "内容创作",
+      "roles": [
+        "运营/营销",
+        "设计师",
+        "创业者"
+      ],
+      "tools": "Gemini Omni 1.2 Flash",
+      "source": "Product Hunt",
+      "url": "https://www.producthunt.com/products/google-omni-1-2-flash",
+      "date": "2026-11-08",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "s675db44594",
+      "heat": 74
+    },
+    {
+      "name": "Quest个人AI生活顾问",
+      "desc": "作为个人AI顾问，帮助用户更有意识地规划生活、设定目标并采取行动",
+      "category": "生活娱乐",
+      "roles": [
+        "通用"
+      ],
+      "tools": "Quest",
+      "source": "Product Hunt",
+      "url": "https://www.producthunt.com/products/quest-d8e9c4e8-cc0d-4b07-baee-e3dbf712c279",
+      "date": "2026-11-08",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "se0c9564e4e",
+      "heat": 74
+    },
+    {
+      "name": "Switchy：菜单栏管理AI工具",
+      "desc": "Mac菜单栏工具，集中管理控制、部署、2FA及AI用量限制，提升日常操作效率",
+      "category": "办公效率",
+      "roles": [
+        "开发者",
+        "通用"
+      ],
+      "tools": "Switchy",
+      "source": "Product Hunt",
+      "url": "https://www.producthunt.com/products/switchy",
+      "date": "2026-11-08",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "s72e40bcf91",
+      "heat": 74
+    },
+    {
+      "name": "Instagram桌面版AI视频编辑器",
+      "desc": "免费桌面视频剪辑工具，内置AI代理辅助剪辑，适合制作短视频内容",
+      "category": "内容创作",
+      "roles": [
+        "运营/营销",
+        "设计师",
+        "通用"
+      ],
+      "tools": "Instagram Edits",
+      "source": "Product Hunt",
+      "url": "https://www.producthunt.com/products/instagram",
+      "date": "2026-11-08",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "s3e4e920c81",
+      "heat": 74
+    },
+    {
+      "name": "Exa定时搜索触发Agent",
+      "desc": "按计划自动执行网络搜索并调用你的Agent，每千次运行2美元，适合定时监控信息",
+      "category": "自动化工作流",
+      "roles": [
+        "开发者",
+        "运营/营销",
+        "咨询/分析"
+      ],
+      "tools": "Exa",
+      "source": "Product Hunt",
+      "url": "https://www.producthunt.com/products/exa-ai",
+      "date": "2026-11-08",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "sf82663cebf",
+      "heat": 74
+    },
+    {
+      "name": "Chrome浏览器AI写作翻译插件",
+      "desc": "在Chrome中直接用AI进行文本改写和翻译，提升网页写作效率",
+      "category": "办公效率",
+      "roles": [
+        "通用",
+        "运营/营销"
+      ],
+      "tools": "ClarifierAI",
+      "source": "Product Hunt",
+      "url": "https://www.producthunt.com/products/clarifierai-rewrite-text-2",
+      "date": "2026-11-08",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "s41c04bf541",
+      "heat": 74
+    },
+    {
+      "name": "AI SDR 自动预约会议",
+      "desc": "AI 销售开发代表，在日本、美国、东南亚自动开发客户并预约会议",
+      "category": "营销增长",
+      "roles": [
+        "运营/营销",
+        "创业者"
+      ],
+      "tools": "Deal Pilot",
+      "source": "Product Hunt",
+      "url": "https://www.producthunt.com/products/deal-pilot",
+      "date": "2026-11-08",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "sa550723627",
+      "heat": 74
+    },
+    {
+      "name": "一张产品图生成三张棚拍图",
+      "desc": "用 AI 将单张产品照片转化为三张不同风格的棚拍效果图，解决电商产品图制作成本高的问题",
+      "category": "内容创作",
+      "roles": [
+        "运营/营销",
+        "设计师"
+      ],
+      "tools": "AI 图像生成工具",
+      "source": "The Rundown AI",
+      "url": "https://therundownai.beehiiv.com/p/apple-cracks-the-door-open-to-siri-ai",
+      "date": "2026-11-05",
+      "_mentions": 1,
+      "_kind": "newsletter_rss",
+      "id": "s1dff749379",
+      "heat": 73
+    },
+    {
       "name": "Diana 终端记录编码代理操作",
       "desc": "一款终端工具，可记录编码代理在终端中的操作过程，便于回溯与审计",
       "category": "编程开发",
@@ -284,7 +641,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sbd5eeb2de9",
-      "heat": 74
+      "heat": 73
     },
     {
       "name": "按验证成果授予AI代理权限",
@@ -301,7 +658,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s8c4c976f63",
-      "heat": 74
+      "heat": 73
     },
     {
       "name": "用Tailscale隧道让云端Agent走家庭IP",
@@ -318,7 +675,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s33a0627b1f",
-      "heat": 74
+      "heat": 73
     },
     {
       "name": "用Claude解析HN评论生成交互式工具图谱",
@@ -336,7 +693,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "scfc653b8dd",
-      "heat": 74
+      "heat": 73
     },
     {
       "name": "用AJX测试AI代理使用产品的卡点",
@@ -353,7 +710,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s654cf6637d",
-      "heat": 74
+      "heat": 73
     },
     {
       "name": "AI智能体玩魔兽世界",
@@ -370,7 +727,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s1d95f1381f",
-      "heat": 74
+      "heat": 73
     },
     {
       "name": "AI编程智能体沙箱数据集",
@@ -387,7 +744,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s278ff5012d",
-      "heat": 74
+      "heat": 73
     },
     {
       "name": "GoLand性能分析器接入AI代理",
@@ -403,7 +760,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s19972042fa",
-      "heat": 74
+      "heat": 73
     },
     {
       "name": "AI推断乐高机械结构并自动动画",
@@ -420,7 +777,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s5ea34994c8",
-      "heat": 74
+      "heat": 73
     },
     {
       "name": "AI代理间HTTP支付SDK",
@@ -437,7 +794,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s9f0c51dba2",
-      "heat": 74
+      "heat": 73
     },
     {
       "name": "Perplexity 推出工作型 AI 智能体",
@@ -454,7 +811,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s4b15e236ad",
-      "heat": 74
+      "heat": 73
     },
     {
       "name": "64个专业AI代理角色CLI工作流",
@@ -472,7 +829,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s1979f113f9",
-      "heat": 74
+      "heat": 73
     },
     {
       "name": "HN 社区 AI 编程代理配置经验汇总",
@@ -488,7 +845,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s944c61fcfe",
-      "heat": 74
+      "heat": 73
     },
     {
       "name": "AI agent 在 Stripe 中自动转账",
@@ -505,7 +862,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s2ba875c3af",
-      "heat": 74
+      "heat": 73
     },
     {
       "name": "AI Agent 变更控制工具 Current",
@@ -522,7 +879,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s08a4ab8153",
-      "heat": 74
+      "heat": 73
     },
     {
       "name": "AI Agent 的 OAuth 权限代理",
@@ -539,7 +896,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s7197374ccf",
-      "heat": 74
+      "heat": 73
     },
     {
       "name": "Alysis Code 开源AI编程助手",
@@ -555,7 +912,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s3bf719d85b",
-      "heat": 74
+      "heat": 73
     },
     {
       "name": "Rankfender v3.0 SEO/GEO 操作系统",
@@ -572,7 +929,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s5600270e64",
-      "heat": 74
+      "heat": 73
     },
     {
       "name": "对话式ERP助手DALI AI",
@@ -590,7 +947,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s8ef6a88e3b",
-      "heat": 74
+      "heat": 73
     },
     {
       "name": "AI可恢复但不可删除的数据库备份",
@@ -607,7 +964,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sb87999839b",
-      "heat": 74
+      "heat": 73
     },
     {
       "name": "并行运行多个Claude Code与Codex代理",
@@ -623,7 +980,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sd0ffbaeafc",
-      "heat": 74
+      "heat": 73
     },
     {
       "name": "双AI代理辩论获取第二意见",
@@ -641,7 +998,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s77f61aab45",
-      "heat": 74
+      "heat": 73
     },
     {
       "name": "OrgSync团队知识库",
@@ -659,7 +1016,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sdea015881a",
-      "heat": 74
+      "heat": 73
     },
     {
       "name": "Kivo：Mac 全局语音听写",
@@ -677,7 +1034,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s665360602f",
-      "heat": 74
+      "heat": 73
     },
     {
       "name": "网站变身AI销售代理",
@@ -694,7 +1051,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sfc95466046",
-      "heat": 74
+      "heat": 73
     },
     {
       "name": "crystl：AI编程代理多任务终端",
@@ -710,7 +1067,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sbcfef62c40",
-      "heat": 74
+      "heat": 73
     },
     {
       "name": "Koltrix 智能体管理邮件",
@@ -727,7 +1084,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s5ccd723b49",
-      "heat": 74
+      "heat": 73
     },
     {
       "name": "TraceX 排查生产问题",
@@ -743,7 +1100,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s2b2f2a4211",
-      "heat": 74
+      "heat": 73
     },
     {
       "name": "Repairer：AI 自动打补丁堵漏洞",
@@ -760,7 +1117,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sd71bc6689e",
-      "heat": 73
+      "heat": 72
     },
     {
       "name": "Axiom 约束 AI 代理不虚构代码限制",
@@ -777,7 +1134,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sc33e10550c",
-      "heat": 73
+      "heat": 72
     },
     {
       "name": "Nubank 加速 AI 智能体迭代",
@@ -794,7 +1151,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s77403f3882",
-      "heat": 73
+      "heat": 72
     },
     {
       "name": "MCP 开放世界文字冒险游戏",
@@ -811,7 +1168,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s09c7ad5978",
-      "heat": 73
+      "heat": 72
     },
     {
       "name": "用eBPF监控AI Agent系统行为",
@@ -828,7 +1185,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sfdd9da9ae5",
-      "heat": 73
+      "heat": 72
     },
     {
       "name": "AI编程代理零泄漏沙箱防护",
@@ -845,7 +1202,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s7d1fd8cf2e",
-      "heat": 73
+      "heat": 72
     },
     {
       "name": "Markdown任务看板直连Claude Code",
@@ -863,7 +1220,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s936b90d32a",
-      "heat": 73
+      "heat": 72
     },
     {
       "name": "AI代理通过MCP调用钱包筛查",
@@ -880,7 +1237,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sfdf5df10b2",
-      "heat": 73
+      "heat": 72
     },
     {
       "name": "Agent经验回放与探索平台",
@@ -897,7 +1254,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sc515109045",
-      "heat": 73
+      "heat": 72
     },
     {
       "name": "安卓手机AI代理实测",
@@ -914,7 +1271,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s84bc5fc4fd",
-      "heat": 73
+      "heat": 72
     },
     {
       "name": "GPT-Live与GPT-Realtime语音架构对比",
@@ -931,7 +1288,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s44955ab1da",
-      "heat": 73
+      "heat": 72
     },
     {
       "name": "Python 复现 AI Agent 审批失败",
@@ -947,7 +1304,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sbd5a9a7127",
-      "heat": 73
+      "heat": 72
     },
     {
       "name": "Magertron：AI代理工具编排器",
@@ -964,7 +1321,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sbafbedfc9e",
-      "heat": 73
+      "heat": 72
     },
     {
       "name": "终端多格式数据文件查看器",
@@ -981,7 +1338,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sabfda03196",
-      "heat": 73
+      "heat": 72
     },
     {
       "name": "多智能体集群数据采集玩法",
@@ -998,7 +1355,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s0ab3a358e4",
-      "heat": 73
+      "heat": 72
     },
     {
       "name": "Rivet：用 Actor 模型编排 AI Agent",
@@ -1015,7 +1372,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s38ad8fce49",
-      "heat": 73
+      "heat": 72
     },
     {
       "name": "Slack 请求自动生成数据管道",
@@ -1031,7 +1388,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s3b3fb5ce86",
-      "heat": 73
+      "heat": 72
     },
     {
       "name": "Shotoku：AI代理本地授权层",
@@ -1048,7 +1405,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s48e0f7e1f9",
-      "heat": 73
+      "heat": 72
     },
     {
       "name": "智能体LaTeX编辑器",
@@ -1065,7 +1422,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sb89a50dc84",
-      "heat": 73
+      "heat": 72
     },
     {
       "name": "Okapi自动修复API破坏性变更",
@@ -1081,7 +1438,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s81a5c3d568",
-      "heat": 73
+      "heat": 72
     },
     {
       "name": "Wingmen 智能外联工具",
@@ -1098,7 +1455,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s5068ff0ebf",
-      "heat": 73
+      "heat": 72
     },
     {
       "name": "给AI智能体配真实iPhone和Mac",
@@ -1115,7 +1472,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s24f506e979",
-      "heat": 73
+      "heat": 72
     },
     {
       "name": "Bridge：智能体时代的视频会议",
@@ -1132,7 +1489,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s0c07c8e168",
-      "heat": 73
+      "heat": 72
     },
     {
       "name": "Seamcult 图案设计工具",
@@ -1149,7 +1506,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s9805d5b390",
-      "heat": 73
+      "heat": 72
     },
     {
       "name": "AI Agent 计费与订阅基础设施",
@@ -1166,7 +1523,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s4a6646c526",
-      "heat": 73
+      "heat": 72
     },
     {
       "name": "Stitch.ai 全能 AI 工作台",
@@ -1183,7 +1540,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sdda8c5390b",
-      "heat": 73
+      "heat": 72
     },
     {
       "name": "Living Brain 智能体记忆层",
@@ -1200,7 +1557,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sca7d849489",
-      "heat": 73
+      "heat": 72
     },
     {
       "name": "本地Claude Code自动审查GitHub PR",
@@ -1216,7 +1573,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sd0857514bf",
-      "heat": 73
+      "heat": 72
     },
     {
       "name": "Easy-Peasy.AI 组建 AI 员工团队",
@@ -1234,7 +1591,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s860bc7aa27",
-      "heat": 73
+      "heat": 72
     },
     {
       "name": "手机远程启动操控本机AI代理",
@@ -1251,7 +1608,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sd7facc68aa",
-      "heat": 73
+      "heat": 72
     },
     {
       "name": "会议中共享Claude Code会话",
@@ -1268,7 +1625,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s03668cf76f",
-      "heat": 73
+      "heat": 72
     },
     {
       "name": "通过MCP在ChatGPT/Claude管理市场",
@@ -1286,7 +1643,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s05bb54f2d2",
-      "heat": 73
+      "heat": 72
     },
     {
       "name": "Pinku离线私密AI聊天",
@@ -1302,7 +1659,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sdc9c308218",
-      "heat": 73
+      "heat": 72
     },
     {
       "name": "可编辑AI艺术图制作",
@@ -1319,7 +1676,7 @@
       "_mentions": 1,
       "_kind": "newsletter_rss",
       "id": "sa6301ab8f1",
-      "heat": 72
+      "heat": 71
     },
     {
       "name": "权重空间编程：直接读写模型权重",
@@ -1336,7 +1693,7 @@
       "_mentions": 1,
       "_kind": "newsletter_rss",
       "id": "s04f971fc49",
-      "heat": 72
+      "heat": 71
     },
     {
       "name": "数据不可见时构建法律AI代理",
@@ -1353,7 +1710,7 @@
       "_mentions": 1,
       "_kind": "newsletter_rss",
       "id": "sf29b3c7d6a",
-      "heat": 72
+      "heat": 71
     },
     {
       "name": "AI 代理实体信箱收件",
@@ -1371,7 +1728,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s0b305eecd0",
-      "heat": 72
+      "heat": 71
     },
     {
       "name": "AI代理先写蓝图再编码",
@@ -1388,7 +1745,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s99021a02bf",
-      "heat": 72
+      "heat": 71
     },
     {
       "name": "AI代理操控真实浏览器并人工确认",
@@ -1405,7 +1762,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s1ace6b8367",
-      "heat": 72
+      "heat": 71
     },
     {
       "name": "Amiga远程桌面AI代理",
@@ -1422,7 +1779,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s06190cf7bc",
-      "heat": 72
+      "heat": 71
     },
     {
       "name": "开源自托管语音AI代理平台OpenRing",
@@ -1439,7 +1796,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s0219035d65",
-      "heat": 72
+      "heat": 71
     },
     {
       "name": "Chronosphere 拆解大型 PR",
@@ -1456,7 +1813,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sa8746fcc38",
-      "heat": 72
+      "heat": 71
     },
     {
       "name": "编码智能体框架对比测试",
@@ -1473,7 +1830,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s698b886a1d",
-      "heat": 72
+      "heat": 71
     },
     {
       "name": "用 Claude Code 开发前端与 MLX 代码",
@@ -1490,7 +1847,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s45f0d2c322",
-      "heat": 72
+      "heat": 71
     },
     {
       "name": "Gauge CLI 递归优化文档",
@@ -1507,7 +1864,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s91352e1481",
-      "heat": 72
+      "heat": 71
     },
     {
       "name": "Jinna：一人公司AI大脑与代理",
@@ -1524,7 +1881,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s94509bfe63",
-      "heat": 72
+      "heat": 71
     },
     {
       "name": "隐私AI办公助手处理表格文档",
@@ -1541,7 +1898,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sa14230fc5c",
-      "heat": 72
+      "heat": 71
     },
     {
       "name": "Atlas：让AI代理后台操控Mac",
@@ -1558,7 +1915,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s7ed597023e",
-      "heat": 72
+      "heat": 71
     },
     {
       "name": "Kino AI 代码化视频编辑协作平台",
@@ -1576,7 +1933,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s784c818e94",
-      "heat": 72
+      "heat": 71
     },
     {
       "name": "Renor：为所有AI代理共享记忆",
@@ -1593,7 +1950,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s1534a2bd91",
-      "heat": 72
+      "heat": 71
     },
     {
       "name": "AI 3D游戏引擎制作发布游戏",
@@ -1611,7 +1968,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s612de95fe5",
-      "heat": 72
+      "heat": 71
     },
     {
       "name": "Orphex MCP 统一营销操作",
@@ -1628,7 +1985,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s6a6781a25e",
-      "heat": 72
+      "heat": 71
     },
     {
       "name": "AI文件真伪检测工具",
@@ -1645,7 +2002,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s09bb167804",
-      "heat": 72
+      "heat": 71
     },
     {
       "name": "为AI代理分配邮箱身份",
@@ -1662,7 +2019,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s15b0f4545f",
-      "heat": 72
+      "heat": 71
     },
     {
       "name": "ChatGPT 驱动 24/7 直播",
@@ -1679,7 +2036,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s8e09fa24ba",
-      "heat": 72
+      "heat": 71
     },
     {
       "name": "MacBook触控板隐藏AI按钮",
@@ -1696,7 +2053,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s0ccd01e1ee",
-      "heat": 72
+      "heat": 71
     },
     {
       "name": "PasteGuard 防止敏感数据泄露给 AI",
@@ -1713,7 +2070,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s1416b13971",
-      "heat": 72
+      "heat": 71
     },
     {
       "name": "QualityLayer 辅助编码代理开发",
@@ -1730,7 +2087,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "saa46da245a",
-      "heat": 72
+      "heat": 71
     },
     {
       "name": "Render Sandboxes 为 AI 智能体提供云端沙箱",
@@ -1747,7 +2104,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s03d2b35636",
-      "heat": 72
+      "heat": 71
     },
     {
       "name": "KREV AI 电商品牌运营团队",
@@ -1764,7 +2121,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "se958d0a347",
-      "heat": 72
+      "heat": 71
     },
     {
       "name": "Datasette 内用 LLM 构建 HTML 应用",
@@ -1780,7 +2137,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s85d83b5482",
-      "heat": 72
+      "heat": 71
     },
     {
       "name": "Datasette Agent 侧边栏对话建应用",
@@ -1798,7 +2155,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sf55bf0fb82",
-      "heat": 72
+      "heat": 71
     },
     {
       "name": "为AI编程代理加本地记忆",
@@ -1814,7 +2171,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sdf2ec345bc",
-      "heat": 71
+      "heat": 70
     },
     {
       "name": "AI模型变更追踪工具Modelpeers",
@@ -1832,7 +2189,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sa2f2040475",
-      "heat": 71
+      "heat": 70
     },
     {
       "name": "Lotse iOS AI编程助手",
@@ -1848,7 +2205,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sb4ae2f2ef8",
-      "heat": 71
+      "heat": 70
     },
     {
       "name": "Kairos开源反欺诈决策平台",
@@ -1866,7 +2223,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sb5e6ccaf74",
-      "heat": 71
+      "heat": 70
     },
     {
       "name": "Mallard：AI 会话的 Git 式备份共享",
@@ -1884,7 +2241,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s838d9476e1",
-      "heat": 71
+      "heat": 70
     },
     {
       "name": "AI代理行为管控工具Traccia",
@@ -1901,7 +2258,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sd013638d56",
-      "heat": 71
+      "heat": 70
     },
     {
       "name": "AI代理自动撰写帮助中心",
@@ -1918,7 +2275,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s0ae5c33d7c",
-      "heat": 71
+      "heat": 70
     },
     {
       "name": "用SQLite替代回合制LLM智能体",
@@ -1934,7 +2291,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s7ba2633d29",
-      "heat": 71
+      "heat": 70
     },
     {
       "name": "SIE Serverless 小模型托管推理",
@@ -1951,7 +2308,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sc21b52b8a4",
-      "heat": 71
+      "heat": 70
     },
     {
       "name": "开源RPG游戏引擎Oathshaper",
@@ -1968,7 +2325,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s9e8ef6425a",
-      "heat": 71
+      "heat": 70
     },
     {
       "name": "家庭共享AI助手Cinnamon",
@@ -1985,7 +2342,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s1e545d0ce5",
-      "heat": 71
+      "heat": 70
     },
     {
       "name": "AI生成代码扫描修复工具",
@@ -2002,7 +2359,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s68a43b8dca",
-      "heat": 71
+      "heat": 70
     },
     {
       "name": "Knemora 本地私有第二大脑",
@@ -2019,7 +2376,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s4d073d019d",
-      "heat": 71
+      "heat": 70
     },
     {
       "name": "Agent 循环封装为函数",
@@ -2036,7 +2393,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s4b7acc8933",
-      "heat": 71
+      "heat": 70
     },
     {
       "name": "Prax 钱包与制裁筛查 MCP 工具",
@@ -2053,7 +2410,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s493ec491fe",
-      "heat": 71
+      "heat": 70
     },
     {
       "name": "Teamily AI 人机协作通讯工具",
@@ -2071,7 +2428,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s9a8cf1078a",
-      "heat": 71
+      "heat": 70
     },
     {
       "name": "Scrawl：给AI代理可视化问题框",
@@ -2088,7 +2445,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s79c2fec0ac",
-      "heat": 71
+      "heat": 70
     },
     {
       "name": "SUN 提示词/PDF 转音频",
@@ -2105,7 +2462,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sc37c5712c1",
-      "heat": 71
+      "heat": 70
     },
     {
       "name": "团队AI使用仪表盘",
@@ -2122,7 +2479,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s2f51262237",
-      "heat": 71
+      "heat": 70
     },
     {
       "name": "Windows 多编码代理统一终端",
@@ -2138,7 +2495,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "scdf6f0d3b2",
-      "heat": 71
+      "heat": 70
     },
     {
       "name": "Infino AI 统一查询引擎",
@@ -2155,7 +2512,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "scc05000ef2",
-      "heat": 71
+      "heat": 70
     },
     {
       "name": "Flockbay免费AI游戏制作器",
@@ -2172,7 +2529,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s1c111c4701",
-      "heat": 71
+      "heat": 70
     },
     {
       "name": "Wavefunction 开源编码助手",
@@ -2188,7 +2545,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sf33cf6fba3",
-      "heat": 71
+      "heat": 70
     },
     {
       "name": "AgentKit 生产级 MCP 网关",
@@ -2205,7 +2562,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s27e650df5c",
-      "heat": 71
+      "heat": 70
     },
     {
       "name": "AI代理跨平台投放广告",
@@ -2222,7 +2579,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s3aa2c09630",
-      "heat": 71
+      "heat": 70
     },
     {
       "name": "NEXUPIRA AI 队友交付成品",
@@ -2239,7 +2596,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s3b5515ba04",
-      "heat": 71
+      "heat": 70
     },
     {
       "name": "Beamfy 视障人士 AI 视觉助手",
@@ -2255,7 +2612,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "se746ad4760",
-      "heat": 71
+      "heat": 70
     },
     {
       "name": "Peji：可控真实浏览器的AI对话",
@@ -2273,7 +2630,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s96440479cc",
-      "heat": 71
+      "heat": 70
     },
     {
       "name": "手机远程管理编程Agent",
@@ -2290,7 +2647,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sd0e0215854",
-      "heat": 71
+      "heat": 70
     },
     {
       "name": "Hookdeck Inspect Webhook 测试工具",
@@ -2306,7 +2663,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sd2e788b3d1",
-      "heat": 71
+      "heat": 70
     },
     {
       "name": "本地大模型解读模型权重",
@@ -2323,7 +2680,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s10e4deaf0a",
-      "heat": 71
+      "heat": 70
     },
     {
       "name": "AI代理命令行计算机操作工具",
@@ -2340,7 +2697,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sff612b6475",
-      "heat": 70
+      "heat": 69
     },
     {
       "name": "PhoneUse：让AI代理操控手机",
@@ -2357,7 +2714,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s1d9e22017e",
-      "heat": 70
+      "heat": 69
     },
     {
       "name": "Agent 评估用例编写指南",
@@ -2374,7 +2731,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s3e1df8e748",
-      "heat": 70
+      "heat": 69
     },
     {
       "name": "LLM 自动实现分布式消息系统实验",
@@ -2391,7 +2748,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sfa30931baf",
-      "heat": 70
+      "heat": 69
     },
     {
       "name": "Ellf虚拟NLP工程师辅助Agent开发",
@@ -2408,7 +2765,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sd734fc4363",
-      "heat": 70
+      "heat": 69
     },
     {
       "name": "为AI Agent调用MCP服务器提供开源鉴权",
@@ -2425,7 +2782,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s25d21e0af8",
-      "heat": 70
+      "heat": 69
     },
     {
       "name": "AI代理持久化云浏览器",
@@ -2442,7 +2799,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sc4e5c07313",
-      "heat": 70
+      "heat": 69
     },
     {
       "name": "ArchDocs 为 AI 编码代理提供共享上下文",
@@ -2459,7 +2816,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s7f90189493",
-      "heat": 70
+      "heat": 69
     },
     {
       "name": "AI代理自动生成新闻站",
@@ -2477,7 +2834,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s107b23f1a0",
-      "heat": 70
+      "heat": 69
     },
     {
       "name": "Momentic QA智能体自动测试应用",
@@ -2494,7 +2851,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s0bded211ce",
-      "heat": 70
+      "heat": 69
     },
     {
       "name": "多AI代理组织化管理平台",
@@ -2512,7 +2869,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sd25c037d1d",
-      "heat": 70
+      "heat": 69
     },
     {
       "name": "LongCat-2.5 多模态智能体",
@@ -2529,7 +2886,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sdc68f87259",
-      "heat": 70
+      "heat": 69
     },
     {
       "name": "用 AI 智能体开发 Keeta 节点软件",
@@ -2546,7 +2903,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s7aa27b5e38",
-      "heat": 70
+      "heat": 69
     },
     {
       "name": "Xmind 2027 AI思维导图",
@@ -2563,7 +2920,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s258be1ebe8",
-      "heat": 70
+      "heat": 69
     },
     {
       "name": "diff-tour 代码审查学习工具",
@@ -2580,7 +2937,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s5af3e2e08c",
-      "heat": 70
+      "heat": 69
     },
     {
       "name": "CuriousLM 本地私有 AI",
@@ -2597,7 +2954,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s8ca323d690",
-      "heat": 70
+      "heat": 69
     },
     {
       "name": "Claude 限额后任务续跑工具",
@@ -2614,7 +2971,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sbd4585bb8f",
-      "heat": 70
+      "heat": 69
     },
     {
       "name": "redu.cloud 云端机器供 AI 代理高速运行",
@@ -2631,7 +2988,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s36b5061bf6",
-      "heat": 70
+      "heat": 69
     },
     {
       "name": "Hyperresearch 智能体搜索",
@@ -2648,7 +3005,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s4cb65e2ea6",
-      "heat": 70
+      "heat": 69
     },
     {
       "name": "Display 1.0 多智能体文档应用工作台",
@@ -2666,7 +3023,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sb62e2a9928",
-      "heat": 70
+      "heat": 69
     },
     {
       "name": "AI代讲幻灯片并参会",
@@ -2684,7 +3041,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "se32193b5d6",
-      "heat": 70
+      "heat": 69
     },
     {
       "name": "给AI Agent分配邮箱和聊天账号",
@@ -2702,7 +3059,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sd59588beb8",
-      "heat": 70
+      "heat": 69
     },
     {
       "name": "UnleashX AI 工作团队",
@@ -2719,7 +3076,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "se245707a6c",
-      "heat": 70
+      "heat": 69
     },
     {
       "name": "Hera AI创意画布",
@@ -2736,7 +3093,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sbd319f1190",
-      "heat": 70
+      "heat": 69
     },
     {
       "name": "AI编程助手自进化记忆工具",
@@ -2752,7 +3109,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "se331d55594",
-      "heat": 70
+      "heat": 69
     },
     {
       "name": "用编码Agent生成动画与动效设计",
@@ -2769,7 +3126,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s9a10bde36f",
-      "heat": 70
+      "heat": 69
     },
     {
       "name": "网页转Agent友好Markdown",
@@ -2787,7 +3144,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s6fcf9d444b",
-      "heat": 70
+      "heat": 69
     },
     {
       "name": "LLM CLI 0.37 新功能与用法",
@@ -2803,7 +3160,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "se3ae4a8487",
-      "heat": 70
+      "heat": 69
     },
     {
       "name": "为AI代理提供加密身份认证",
@@ -2820,7 +3177,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s512c556fcc",
-      "heat": 69
+      "heat": 68
     },
     {
       "name": "AWKLog 纯 Awk 实现的 Datalog 解释器",
@@ -2836,7 +3193,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s5896d0434e",
-      "heat": 69
+      "heat": 68
     },
     {
       "name": "AI 编程代理跨设备实时会话",
@@ -2852,7 +3209,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s3bbb19aefe",
-      "heat": 69
+      "heat": 68
     },
     {
       "name": "EchoChain 测试 LLM 传话信息衰减",
@@ -2869,7 +3226,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s9d969c7988",
-      "heat": 69
+      "heat": 68
     },
     {
       "name": "AI代理协作拦截垃圾电话短信",
@@ -2886,7 +3243,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s24f7ef3de0",
-      "heat": 69
+      "heat": 68
     },
     {
       "name": "AI代理祈祷花园",
@@ -2902,7 +3259,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s27441b45b7",
-      "heat": 69
+      "heat": 68
     },
     {
       "name": "Nonce：给AI代理最小权限访问Gmail",
@@ -2919,7 +3276,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s9828a230f8",
-      "heat": 69
+      "heat": 68
     },
     {
       "name": "AI智能体搜索API实测对比",
@@ -2936,7 +3293,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sabf2da3799",
-      "heat": 69
+      "heat": 68
     },
     {
       "name": "用GitHub Actions验证AI代理操作",
@@ -2953,7 +3310,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s4133f3c277",
-      "heat": 69
+      "heat": 68
     },
     {
       "name": "Shroom 自托管录屏分享",
@@ -2971,7 +3328,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s7e4d445089",
-      "heat": 69
+      "heat": 68
     },
     {
       "name": "用Go构建自愈式AI智能体框架",
@@ -2987,7 +3344,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s2ecc197f60",
-      "heat": 69
+      "heat": 68
     },
     {
       "name": "OmniDiff 多格式 Git 差异对比工具",
@@ -3003,7 +3360,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sb77e5d697a",
-      "heat": 69
+      "heat": 68
     },
     {
       "name": "FreeGent免费智能体平台",
@@ -3021,7 +3378,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s6e8b8dc7cb",
-      "heat": 69
+      "heat": 68
     },
     {
       "name": "OpenProject AI代理自动接单开发",
@@ -3038,7 +3395,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s4e687912e6",
-      "heat": 69
+      "heat": 68
     },
     {
       "name": "AI代理自主构建P2P浏览器游戏世界",
@@ -3055,7 +3412,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s009fc31f92",
-      "heat": 69
+      "heat": 68
     },
     {
       "name": "Riverside AI视频智能体团队",
@@ -3073,7 +3430,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sd77ddfaa4d",
-      "heat": 69
+      "heat": 68
     },
     {
       "name": "Mac本地AI助手Fluent 2",
@@ -3090,7 +3447,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "saefc3d8db2",
-      "heat": 69
+      "heat": 68
     },
     {
       "name": "团队编码Agent多人协作工具",
@@ -3107,7 +3464,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s587fe53955",
-      "heat": 69
+      "heat": 68
     },
     {
       "name": "ClawsGO Science云端AI科研助手",
@@ -3124,7 +3481,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sba910a9ac4",
-      "heat": 69
+      "heat": 68
     },
     {
       "name": "Termy：刘海屏里的编程助手",
@@ -3140,7 +3497,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s1deddead38",
-      "heat": 69
+      "heat": 68
     },
     {
       "name": "跨设备查看Claude与ChatGPT用量",
@@ -3156,7 +3513,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s8a621c3e4e",
-      "heat": 69
+      "heat": 68
     },
     {
       "name": "像关注人一样关注AI模型",
@@ -3174,7 +3531,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sb0b0f5b309",
-      "heat": 69
+      "heat": 68
     },
     {
       "name": "Embage 客户智能体搭建平台",
@@ -3192,7 +3549,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s1b991bd4ad",
-      "heat": 69
+      "heat": 68
     },
     {
       "name": "用提示词生成海报",
@@ -3210,7 +3567,7 @@
       "_mentions": 1,
       "_kind": "newsletter_rss",
       "id": "s961682f39d",
-      "heat": 68
+      "heat": 67
     },
     {
       "name": "LinkedIn 零依赖 CDP 自动化工具",
@@ -3227,7 +3584,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s32763f7938",
-      "heat": 68
+      "heat": 67
     },
     {
       "name": "DeepSeek开源常驻自主智能体架构",
@@ -3244,7 +3601,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s790fb0c46c",
-      "heat": 68
+      "heat": 67
     },
     {
       "name": "移动端AI编码代理快速迭代",
@@ -3261,7 +3618,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s1cb97183a5",
-      "heat": 68
+      "heat": 67
     },
     {
       "name": "DeepSeek开源dsh-superagent编码智能体",
@@ -3277,7 +3634,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sf4fa42601b",
-      "heat": 68
+      "heat": 67
     },
     {
       "name": "Praex AI编程代理",
@@ -3293,7 +3650,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s49b31ec960",
-      "heat": 68
+      "heat": 67
     },
     {
       "name": "Prompt缓存降低Agent成本",
@@ -3310,7 +3667,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s9eb97002ba",
-      "heat": 68
+      "heat": 67
     },
     {
       "name": "多智能体协作自主实验研究",
@@ -3327,7 +3684,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s6cbd3ea7ae",
-      "heat": 68
+      "heat": 67
     },
     {
       "name": "AI代理自动维护架构图",
@@ -3344,7 +3701,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s0cc174c59d",
-      "heat": 68
+      "heat": 67
     },
     {
       "name": "智能灯提示AI编码状态",
@@ -3360,7 +3717,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sfabd2f514d",
-      "heat": 68
+      "heat": 67
     },
     {
       "name": "Claude Code与Codex编码数据回顾",
@@ -3376,7 +3733,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sd04036173e",
-      "heat": 68
+      "heat": 67
     },
     {
       "name": "AI Agent 的 LLM 可观测性工具",
@@ -3392,7 +3749,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s4871afd06d",
-      "heat": 68
+      "heat": 67
     },
     {
       "name": "BaseTab AI 新标签页工作台",
@@ -3409,7 +3766,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s8731fed383",
-      "heat": 68
+      "heat": 67
     },
     {
       "name": "GitHub Copilot Fusion 多模型编程",
@@ -3425,7 +3782,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s6ca64387b3",
-      "heat": 68
+      "heat": 67
     },
     {
       "name": "Backenly：AI编程代理的自主后端",
@@ -3442,7 +3799,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "se76cd26631",
-      "heat": 68
+      "heat": 67
     },
     {
       "name": "给AI智能体独立Mac屏幕",
@@ -3459,7 +3816,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s4d061b07f2",
-      "heat": 68
+      "heat": 67
     },
     {
       "name": "Pluto Door：带AI助手的SSH客户端",
@@ -3476,7 +3833,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s50c1f28d85",
-      "heat": 68
+      "heat": 67
     },
     {
       "name": "Datasette Agent 免配置默认模型",
@@ -3493,7 +3850,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sd8e042edad",
-      "heat": 68
+      "heat": 67
     },
     {
       "name": "记录AI不适用场景并反馈",
@@ -3510,7 +3867,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s2944ac6568",
-      "heat": 68
+      "heat": 67
     },
     {
       "name": "Google AI 世界可对话交互",
@@ -3527,7 +3884,7 @@
       "_mentions": 1,
       "_kind": "newsletter_rss",
       "id": "s092c38ead5",
-      "heat": 67
+      "heat": 66
     },
     {
       "name": "AI 将销售通话笔记转为跟进邮件",
@@ -3544,7 +3901,7 @@
       "_mentions": 1,
       "_kind": "newsletter_rss",
       "id": "s52a9f652b5",
-      "heat": 67
+      "heat": 66
     },
     {
       "name": "Claude平台架构：模型与智能体分离",
@@ -3561,7 +3918,7 @@
       "_mentions": 1,
       "_kind": "newsletter_rss",
       "id": "s987773af19",
-      "heat": 67
+      "heat": 66
     },
     {
       "name": "AI Agent 花费与工具调用防火墙",
@@ -3578,7 +3935,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s8e61ee5e89",
-      "heat": 67
+      "heat": 66
     },
     {
       "name": "AI代理完成度验证工具",
@@ -3595,7 +3952,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s0f64a31873",
-      "heat": 67
+      "heat": 66
     },
     {
       "name": "开源浏览器Agent fastbrowse",
@@ -3612,7 +3969,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s650b925409",
-      "heat": 67
+      "heat": 66
     },
     {
       "name": "企业级AI Agent安全运行框架",
@@ -3629,7 +3986,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s591dcb6632",
-      "heat": 67
+      "heat": 66
     },
     {
       "name": "AI代理操控移动设备",
@@ -3646,7 +4003,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s277e51deba",
-      "heat": 67
+      "heat": 66
     },
     {
       "name": "AI逆向破解crackme并自校验",
@@ -3663,7 +4020,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sa98ab7f34f",
-      "heat": 67
+      "heat": 66
     },
     {
       "name": "MecAgent自动扫描上传CAD文件",
@@ -3680,7 +4037,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "scfbc903b32",
-      "heat": 67
+      "heat": 66
     },
     {
       "name": "规模化编排50个编码智能体",
@@ -3697,7 +4054,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s64ee1b4b30",
-      "heat": 67
+      "heat": 66
     },
     {
       "name": "用编译器校验AI编码代理",
@@ -3713,7 +4070,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sc82d2f6395",
-      "heat": 67
+      "heat": 66
     },
     {
       "name": "AI代理玩你画我猜",
@@ -3730,7 +4087,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s1060ccdfcb",
-      "heat": 67
+      "heat": 66
     },
     {
       "name": "Omneum：AI代理本地上下文控制",
@@ -3747,7 +4104,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sfca9289620",
-      "heat": 67
+      "heat": 66
     },
     {
       "name": "AI账单转FOCUS格式CLI工具",
@@ -3765,7 +4122,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sf167ca5603",
-      "heat": 67
+      "heat": 66
     },
     {
       "name": "AI代理代码审查找Bug对比",
@@ -3782,7 +4139,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sd27cb3eb88",
-      "heat": 67
+      "heat": 66
     },
     {
       "name": "AI代理一键购物API",
@@ -3800,7 +4157,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s2f58f46f1d",
-      "heat": 67
+      "heat": 66
     },
     {
       "name": "Theagora 付费 AI Agent 市场",
@@ -3817,7 +4174,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s71a933c82a",
-      "heat": 67
+      "heat": 66
     },
     {
       "name": "Beolis管理并行编码AI代理",
@@ -3834,7 +4191,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s69cb81a698",
-      "heat": 67
+      "heat": 66
     },
     {
       "name": "SparkBots AI 网页与PDF解析",
@@ -3852,7 +4209,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s29d6ba6a01",
-      "heat": 67
+      "heat": 66
     },
     {
       "name": "Faylee：一键生成可修复的Bug报告",
@@ -3869,7 +4226,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s764311cdf1",
-      "heat": 67
+      "heat": 66
     },
     {
       "name": "网站访客AI对话工具",
@@ -3886,7 +4243,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s37bd64df26",
-      "heat": 67
+      "heat": 66
     },
     {
       "name": "指向应用界面让AI改代码",
@@ -3903,7 +4260,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s62f26b349a",
-      "heat": 67
+      "heat": 66
     },
     {
       "name": "语音指令驱动Agent执行任务",
@@ -3920,7 +4277,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s77ef10d660",
-      "heat": 67
+      "heat": 66
     },
     {
       "name": "Vaani 语音 AI 开发平台",
@@ -3937,7 +4294,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s1238c35238",
-      "heat": 67
+      "heat": 66
     },
     {
       "name": "XWiki MCP Server 接入 AI",
@@ -3954,7 +4311,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s6ad005397b",
-      "heat": 67
+      "heat": 66
     },
     {
       "name": "Fastbrowse 开源浏览器智能体",
@@ -3971,7 +4328,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s8d8fbabb03",
-      "heat": 67
+      "heat": 66
     },
     {
       "name": "用大模型权重模拟NES模拟器",
@@ -3988,7 +4345,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s9a3b9e3fe5",
-      "heat": 67
+      "heat": 66
     },
     {
       "name": "离线AI编程代理搭建",
@@ -4004,7 +4361,7 @@
       "_mentions": 1,
       "_kind": "newsletter_rss",
       "id": "s5891ef812d",
-      "heat": 66
+      "heat": 65
     },
     {
       "name": "Breatic协作画布AI代理",
@@ -4022,7 +4379,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s4a03d89ae5",
-      "heat": 66
+      "heat": 65
     },
     {
       "name": "纯文本表格+AI直接读写",
@@ -4040,7 +4397,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s457838f498",
-      "heat": 66
+      "heat": 65
     },
     {
       "name": "构建确定性AI产品的实践方法",
@@ -4057,7 +4414,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s215125d71b",
-      "heat": 66
+      "heat": 65
     },
     {
       "name": "网页评论AI代理互动",
@@ -4074,7 +4431,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sd609ea6018",
-      "heat": 66
+      "heat": 65
     },
     {
       "name": "让VB6老应用接入AI代理",
@@ -4090,7 +4447,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s8e39a840fe",
-      "heat": 66
+      "heat": 65
     },
     {
       "name": "PHP 版 AI Agent 运行时 phpClaw",
@@ -4106,7 +4463,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s020d8164e8",
-      "heat": 66
+      "heat": 65
     },
     {
       "name": "批量生成可读AI文本五原则",
@@ -4123,7 +4480,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s018e1af716",
-      "heat": 66
+      "heat": 65
     },
     {
       "name": "Sheetgraph压缩表格供AI理解",
@@ -4140,7 +4497,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s727a18cba3",
-      "heat": 66
+      "heat": 65
     },
     {
       "name": "Apgar 无 LLM 判官检测 Agent 回归",
@@ -4157,7 +4514,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sbe0435c9b8",
-      "heat": 66
+      "heat": 65
     },
     {
       "name": "AI Agent 博客平台",
@@ -4174,7 +4531,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s97da0b7333",
-      "heat": 66
+      "heat": 65
     },
     {
       "name": "为AI智能体赋予人格化设定",
@@ -4192,7 +4549,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s0c85c2016b",
-      "heat": 66
+      "heat": 65
     },
     {
       "name": "Luma AI 智能启动器",
@@ -4209,7 +4566,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s59e750059f",
-      "heat": 66
+      "heat": 65
     },
     {
       "name": "Tella 浏览器内 AI 视频剪辑",
@@ -4227,7 +4584,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s34de0c8011",
-      "heat": 66
+      "heat": 65
     },
     {
       "name": "AI代理固件仿真测试",
@@ -4244,7 +4601,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sc85f56d499",
-      "heat": 66
+      "heat": 65
     },
     {
       "name": "在 Oxide 上自托管 AI Agent",
@@ -4261,7 +4618,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s9b24acf516",
-      "heat": 66
+      "heat": 65
     },
     {
       "name": "Wavefunction 极简开源桌面编程助手",
@@ -4278,7 +4635,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s28b8032629",
-      "heat": 66
+      "heat": 65
     },
     {
       "name": "提示词分层法",
@@ -4295,7 +4652,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sa1031ef40f",
-      "heat": 66
+      "heat": 65
     },
     {
       "name": "用 Claude Code 构建 Notch 分析组件",
@@ -4312,7 +4669,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sd6025b12c8",
-      "heat": 66
+      "heat": 65
     },
     {
       "name": "分享完整AI Agent运行过程",
@@ -4329,7 +4686,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s48c390e08b",
-      "heat": 66
+      "heat": 65
     },
     {
       "name": "Radar：给AI代理加监控雷达",
@@ -4346,7 +4703,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s921e97ddd7",
-      "heat": 66
+      "heat": 65
     },
     {
       "name": "Smart Jelly 整合 AI 工具与记忆",
@@ -4362,7 +4719,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s4a5e49785f",
-      "heat": 66
+      "heat": 65
     },
     {
       "name": "多AI代理同画布协作编排",
@@ -4379,7 +4736,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "se873a9d76e",
-      "heat": 66
+      "heat": 65
     },
     {
       "name": "AssemblyAI 语音智能体 TTS",
@@ -4396,7 +4753,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s5351fbfb18",
-      "heat": 66
+      "heat": 65
     },
     {
       "name": "JIMMY：PC端AI智能体",
@@ -4413,7 +4770,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s97145714ac",
-      "heat": 66
+      "heat": 65
     },
     {
       "name": "AI SDR 自动跟进未跟进线索",
@@ -4430,7 +4787,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s45b05c7607",
-      "heat": 66
+      "heat": 65
     },
     {
       "name": "GoLogin 云浏览器",
@@ -4447,7 +4804,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sc8ebd8ec29",
-      "heat": 66
+      "heat": 65
     },
     {
       "name": "Intrascope 2.0 AI智能体平台",
@@ -4465,7 +4822,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sebec835562",
-      "heat": 66
+      "heat": 65
     },
     {
       "name": "用提示词实时改造多人游戏世界",
@@ -4482,7 +4839,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s8305ce810c",
-      "heat": 66
+      "heat": 65
     },
     {
       "name": "三大AI自动化工作流拆解",
@@ -4500,7 +4857,7 @@
       "_mentions": 1,
       "_kind": "youtube",
       "id": "sc9a56d69c9",
-      "heat": 66
+      "heat": 65
     },
     {
       "name": "ChatGPT 高效提示词合集",
@@ -4517,7 +4874,7 @@
       "_mentions": 1,
       "_kind": "youtube",
       "id": "sc934c81a6c",
-      "heat": 66
+      "heat": 65
     },
     {
       "name": "Anthropic动态工作流协调多智能体",
@@ -4534,7 +4891,7 @@
       "_mentions": 1,
       "_kind": "newsletter_rss",
       "id": "s301183f59e",
-      "heat": 65
+      "heat": 64
     },
     {
       "name": "O11为Agent提供工具路由",
@@ -4551,7 +4908,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s50d2b7ce91",
-      "heat": 65
+      "heat": 64
     },
     {
       "name": "Azure Cosmos DB 支撑 AI 智能体集群的 CI/CD",
@@ -4568,7 +4925,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "scfac431b0e",
-      "heat": 65
+      "heat": 64
     },
     {
       "name": "HLock：Agent 配置跨平台迁移",
@@ -4585,7 +4942,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s51d8503dd1",
-      "heat": 65
+      "heat": 64
     },
     {
       "name": "AI Agent 暴露面审计工具",
@@ -4602,7 +4959,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sbc67555920",
-      "heat": 65
+      "heat": 64
     },
     {
       "name": "AI Agent 重复执行 SQL 的排查",
@@ -4619,7 +4976,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sbe79848ee7",
-      "heat": 65
+      "heat": 64
     },
     {
       "name": "AI代理辅助二手交易决策",
@@ -4635,7 +4992,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s8059d13c9e",
-      "heat": 65
+      "heat": 64
     },
     {
       "name": "AI编程代理两小时冲刺团队管理",
@@ -4652,7 +5009,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s9309d6759b",
-      "heat": 65
+      "heat": 64
     },
     {
       "name": "用C#和NATS.io编排智能体",
@@ -4668,7 +5025,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s65f9a8ea3d",
-      "heat": 65
+      "heat": 64
     },
     {
       "name": "复现并拦截OpenAI与Hugging Face安全事件",
@@ -4685,7 +5042,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s0390719cc1",
-      "heat": 65
+      "heat": 64
     },
     {
       "name": "构建模型无关的AI Agent",
@@ -4702,7 +5059,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s808dc783d2",
-      "heat": 65
+      "heat": 64
     },
     {
       "name": "浏览器实时预览AI剪辑时间线",
@@ -4719,7 +5076,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s5ef65ffc8c",
-      "heat": 65
+      "heat": 64
     },
     {
       "name": "AI Agent 主导产品运营实验",
@@ -4737,7 +5094,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sacf965aff9",
-      "heat": 65
+      "heat": 64
     },
     {
       "name": "提升分析Agent准确率实践",
@@ -4754,7 +5111,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s0ae67ca0a0",
-      "heat": 65
+      "heat": 64
     },
     {
       "name": "x402 按次付费的 AI Agent 数据 API",
@@ -4771,7 +5128,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s321decfb49",
-      "heat": 65
+      "heat": 64
     },
     {
       "name": "Bluesky 智能体搜索找对话伙伴",
@@ -4789,7 +5146,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s699e1de45d",
-      "heat": 65
+      "heat": 64
     },
     {
       "name": "个人AI代理互发消息中继",
@@ -4806,7 +5163,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s237fa54224",
-      "heat": 65
+      "heat": 64
     },
     {
       "name": "WOML 工作流与 AI 智能体标记语言",
@@ -4823,7 +5180,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sac9a7a6b33",
-      "heat": 65
+      "heat": 64
     },
     {
       "name": "Opera WebAI 本地浏览器AI",
@@ -4840,7 +5197,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s86a838b2cf",
-      "heat": 65
+      "heat": 64
     },
     {
       "name": "RageLayer 网站发泄互动层",
@@ -4858,7 +5215,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s6e8d339778",
-      "heat": 65
+      "heat": 64
     },
     {
       "name": "Hob 本地开源 AI 助手",
@@ -4875,7 +5232,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s0fe04e1aff",
-      "heat": 65
+      "heat": 64
     },
     {
       "name": "Genie 4 提示词生成可操控世界",
@@ -4893,7 +5250,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sdd8cd91a09",
-      "heat": 65
+      "heat": 64
     },
     {
       "name": "LFM3 端侧小模型发布",
@@ -4910,7 +5267,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s04e9544066",
-      "heat": 65
+      "heat": 64
     },
     {
       "name": "AI 编码代理自动生成应用商店截图",
@@ -4927,7 +5284,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sd0c019503c",
-      "heat": 65
+      "heat": 64
     },
     {
       "name": "BotGauge 智能体信任层",
@@ -4944,7 +5301,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sd394a18f2e",
-      "heat": 65
+      "heat": 64
     },
     {
       "name": "AI广告欺诈防护工具",
@@ -4961,7 +5318,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s79e70b2a78",
-      "heat": 65
+      "heat": 64
     },
     {
       "name": "检测网站是否适配AI代理",
@@ -4978,7 +5335,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sb2bbfffda1",
-      "heat": 65
+      "heat": 64
     },
     {
       "name": "一句话生成销售营销活动",
@@ -4995,7 +5352,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s29bc0fb0e5",
-      "heat": 65
+      "heat": 64
     },
     {
       "name": "Yardlet：Mac 端编码代理管理工具",
@@ -5011,7 +5368,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s6f537f0c89",
-      "heat": 65
+      "heat": 64
     },
     {
       "name": "Zest 快捷键唤起 AI 代理做开发杂活",
@@ -5027,7 +5384,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s59143dcf9a",
-      "heat": 65
+      "heat": 64
     },
     {
       "name": "Mudroom：虚拟机中运行编码Agent",
@@ -5043,7 +5400,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s132bfa812b",
-      "heat": 65
+      "heat": 64
     },
     {
       "name": "OpenLLM 跨平台携带 AI Token",
@@ -5060,7 +5417,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s3879b58eea",
-      "heat": 65
+      "heat": 64
     },
     {
       "name": "用AI氛围编程开发小游戏",
@@ -5078,7 +5435,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sf954116f5f",
-      "heat": 65
+      "heat": 64
     },
     {
       "name": "AI编程沙箱横向实测对比",
@@ -5095,7 +5452,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sb38fcdb8fc",
-      "heat": 64
+      "heat": 63
     },
     {
       "name": "AI UGC 视频广告生成",
@@ -5112,7 +5469,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "scd02ebe99c",
-      "heat": 64
+      "heat": 63
     },
     {
       "name": "AI UGC 广告视频生成",
@@ -5129,7 +5486,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sabf2ae7e6b",
-      "heat": 64
+      "heat": 63
     },
     {
       "name": "用YAML编写AI智能体",
@@ -5146,7 +5503,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s3844941639",
-      "heat": 64
+      "heat": 63
     },
     {
       "name": "护栏机制提升AI编码代理效果",
@@ -5163,7 +5520,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sf3cf1ef0b8",
-      "heat": 64
+      "heat": 63
     },
     {
       "name": "CLI 跨电商搜索接口",
@@ -5180,7 +5537,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s9b1317cbbf",
-      "heat": 64
+      "heat": 63
     },
     {
       "name": "跨店尺码颜色匹配助AI代购",
@@ -5197,7 +5554,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sa2d843510e",
-      "heat": 64
+      "heat": 63
     },
     {
       "name": "AI Agent 可观测性与控制台",
@@ -5214,7 +5571,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sb1af06b598",
-      "heat": 64
+      "heat": 63
     },
     {
       "name": "CodeRabbit多仓库深度安全扫描",
@@ -5231,7 +5588,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s5430307e3c",
-      "heat": 64
+      "heat": 63
     },
     {
       "name": "Blazle 拦截 AI 代理提示注入与泄密",
@@ -5248,7 +5605,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sd92038bae0",
-      "heat": 64
+      "heat": 63
     },
     {
       "name": "为AI Agent构建可审计记忆",
@@ -5265,7 +5622,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sa55e84f599",
-      "heat": 64
+      "heat": 63
     },
     {
       "name": "被暂停用户的Agent仍写文件",
@@ -5282,7 +5639,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s26ef2f3818",
-      "heat": 64
+      "heat": 63
     },
     {
       "name": "终端直接控制浏览器",
@@ -5299,7 +5656,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s8a56c8e56b",
-      "heat": 64
+      "heat": 63
     },
     {
       "name": "SQL工作负载编译为Rust加速ETL",
@@ -5316,7 +5673,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sed34ae557d",
-      "heat": 64
+      "heat": 63
     },
     {
       "name": "让AI编程代理先思考再写代码",
@@ -5332,7 +5689,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sc9cf949240",
-      "heat": 64
+      "heat": 63
     },
     {
       "name": "AI智能体网页搜索API横评",
@@ -5349,7 +5706,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s18a2c1fa5e",
-      "heat": 64
+      "heat": 63
     },
     {
       "name": "Search2o 简化 AI 智能体开发",
@@ -5366,7 +5723,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s525db411ac",
-      "heat": 64
+      "heat": 63
     },
     {
       "name": "AI编程代理安全基准测试",
@@ -5383,7 +5740,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sa8d9494367",
-      "heat": 64
+      "heat": 63
     },
     {
       "name": "浏览器内全栈AI建站工具",
@@ -5401,7 +5758,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "see449254c8",
-      "heat": 64
+      "heat": 63
     },
     {
       "name": "AI代理接管财务行政",
@@ -5418,7 +5775,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s15feb9182e",
-      "heat": 64
+      "heat": 63
     },
     {
       "name": "SavorApp AI 意图记录工具",
@@ -5435,7 +5792,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s871395af99",
-      "heat": 64
+      "heat": 63
     },
     {
       "name": "Revix AI 代码审查",
@@ -5451,7 +5808,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sdac23bdfce",
-      "heat": 64
+      "heat": 63
     },
     {
       "name": "手机电脑本地运行私有AI",
@@ -5467,7 +5824,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sc3ea0a5f9a",
-      "heat": 64
+      "heat": 63
     },
     {
       "name": "点击本地UI bug让AI自动修复",
@@ -5484,7 +5841,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s9491cfb573",
-      "heat": 64
+      "heat": 63
     },
     {
       "name": "Paddock：为AI智能体提供沙箱环境",
@@ -5501,7 +5858,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sc89d1fbd46",
-      "heat": 64
+      "heat": 63
     },
     {
       "name": "NINX 本地私有 AI 工作流",
@@ -5519,7 +5876,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s12856acd55",
-      "heat": 64
+      "heat": 63
     },
     {
       "name": "Notra：AI搜索排名优化工具",
@@ -5536,7 +5893,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s8413789204",
-      "heat": 64
+      "heat": 63
     },
     {
       "name": "ContextGem 文档数据提取",
@@ -5553,7 +5910,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sadd21d9930",
-      "heat": 64
+      "heat": 63
     },
     {
       "name": "用 Gemini 在会议胸牌上跑 GBC 模拟器",
@@ -5570,7 +5927,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sdb3c5fdc91",
-      "heat": 64
+      "heat": 63
     },
     {
       "name": "Limma MCP 精准检索",
@@ -5588,7 +5945,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sfbdb5af9b4",
-      "heat": 63
+      "heat": 62
     },
     {
       "name": "AI原生工作平台管理创业运营",
@@ -5605,7 +5962,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s840634f4d5",
-      "heat": 63
+      "heat": 62
     },
     {
       "name": "AI代理权限离线校验工具Aroha",
@@ -5622,7 +5979,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s64e0502bf8",
-      "heat": 63
+      "heat": 62
     },
     {
       "name": "Rust 多智能体聊天 MCP 服务器",
@@ -5639,7 +5996,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s39ac187d5e",
-      "heat": 63
+      "heat": 62
     },
     {
       "name": "低成本多智能体委派方案",
@@ -5655,7 +6012,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s6839322888",
-      "heat": 63
+      "heat": 62
     },
     {
       "name": "利用CPU缓存实现AI代理间通信",
@@ -5672,7 +6029,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s47c7cfc31b",
-      "heat": 63
+      "heat": 62
     },
     {
       "name": "模拟股市选股游戏",
@@ -5689,7 +6046,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s442bd4bfb3",
-      "heat": 63
+      "heat": 62
     },
     {
       "name": "面向编码 Agent 的代码库设计",
@@ -5706,7 +6063,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sed2ca48c6e",
-      "heat": 63
+      "heat": 62
     },
     {
       "name": "Jac语言：面向AI代理的Python类编程语言",
@@ -5723,7 +6080,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s7c941d0c80",
-      "heat": 63
+      "heat": 62
     },
     {
       "name": "AI代理间可签署协议工具",
@@ -5740,7 +6097,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sdd06a323a1",
-      "heat": 63
+      "heat": 62
     },
     {
       "name": "旧电脑做Agent控制中枢",
@@ -5757,7 +6114,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s26e1cc549c",
-      "heat": 63
+      "heat": 62
     },
     {
       "name": "Humanlayer 让 AI 编码代理处理复杂代码库",
@@ -5773,7 +6130,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sc50c10143a",
-      "heat": 63
+      "heat": 62
     },
     {
       "name": "MCP 跨智能体共享上下文",
@@ -5790,7 +6147,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s8957151fb0",
-      "heat": 63
+      "heat": 62
     },
     {
       "name": "自建多源搜索层做市场竞品分析",
@@ -5808,7 +6165,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s775648f5d2",
-      "heat": 63
+      "heat": 62
     },
     {
       "name": "AI代理直连数据库免写SQL",
@@ -5826,7 +6183,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sf22469272e",
-      "heat": 63
+      "heat": 62
     },
     {
       "name": "Jobmate AI 求职助手",
@@ -5843,7 +6200,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sb1f9b1d5cf",
-      "heat": 63
+      "heat": 62
     },
     {
       "name": "AllModels 探索无审查模型",
@@ -5860,7 +6217,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sffd9dbf003",
-      "heat": 63
+      "heat": 62
     },
     {
       "name": "VibeiDE 并行队列智能体任务",
@@ -5877,7 +6234,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s5f37998c9e",
-      "heat": 63
+      "heat": 62
     },
     {
       "name": "AI编程代理的开源版本控制工具",
@@ -5893,7 +6250,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s02d210df02",
-      "heat": 63
+      "heat": 62
     },
     {
       "name": "Mac AI代理资源监控工具",
@@ -5910,7 +6267,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s3d525d5b72",
-      "heat": 63
+      "heat": 62
     },
     {
       "name": "SurgePix AI 分层图像编辑",
@@ -5928,7 +6285,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s2f2a8c2e74",
-      "heat": 63
+      "heat": 62
     },
     {
       "name": "MiniMax M3.1 Flash 智能体模型",
@@ -5945,7 +6302,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sc252f7cc73",
-      "heat": 63
+      "heat": 62
     },
     {
       "name": "Strawberry AI 浏览器",
@@ -5963,7 +6320,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s10290121fe",
-      "heat": 63
+      "heat": 62
     },
     {
       "name": "n8n 无代码聊天组件",
@@ -5981,7 +6338,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sbc31858ec3",
-      "heat": 63
+      "heat": 62
     },
     {
       "name": "Mac 多 AI 编程助手统一管理",
@@ -5997,7 +6354,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s25be6c9639",
-      "heat": 63
+      "heat": 62
     },
     {
       "name": "Kiwi 主动式 AI 助手",
@@ -6014,7 +6371,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s39d35ecd76",
-      "heat": 63
+      "heat": 62
     },
     {
       "name": "浏览器标签页里的AI智能体IDE",
@@ -6031,7 +6388,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "se2719188ee",
-      "heat": 63
+      "heat": 62
     },
     {
       "name": "单窗口管理多AI编程代理团队",
@@ -6048,7 +6405,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sf9e7baa13e",
-      "heat": 63
+      "heat": 62
     },
     {
       "name": "GPT-6.1 Terra 模型选型与电脑操作",
@@ -6065,7 +6422,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s2281070aa8",
-      "heat": 63
+      "heat": 62
     },
     {
       "name": "webframe 网页脚本抓取与沙箱",
@@ -6082,7 +6439,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s7169a1fbf1",
-      "heat": 63
+      "heat": 62
     },
     {
       "name": "图片中段裁剪工具 Seam Cutter",
@@ -6099,7 +6456,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s75c95a91cd",
-      "heat": 63
+      "heat": 62
     },
     {
       "name": "Lisp自改写智能体Nodecode",
@@ -6116,7 +6473,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "scf13c63f5e",
-      "heat": 62
+      "heat": 61
     },
     {
       "name": "AI代理与MCP统一网关",
@@ -6133,7 +6490,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "scd5a5d15b4",
-      "heat": 62
+      "heat": 61
     },
     {
       "name": "AI代理请求注意时屏幕故障特效提醒",
@@ -6150,7 +6507,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sc43accd210",
-      "heat": 62
+      "heat": 61
     },
     {
       "name": "AI代理自动在Telegram找客户",
@@ -6167,7 +6524,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sd251af562b",
-      "heat": 62
+      "heat": 61
     },
     {
       "name": "AI代理零信任安全与人工审批",
@@ -6184,7 +6541,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s3d63a8a365",
-      "heat": 62
+      "heat": 61
     },
     {
       "name": "AI代理计划与代码审查",
@@ -6201,7 +6558,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sc38a24fa9b",
-      "heat": 62
+      "heat": 61
     },
     {
       "name": "网站逆向为CLI与MCP工具",
@@ -6218,7 +6575,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s85c1832763",
-      "heat": 62
+      "heat": 61
     },
     {
       "name": "AI代理自动清理磁盘空间",
@@ -6235,7 +6592,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s5f9f6db8d9",
-      "heat": 62
+      "heat": 61
     },
     {
       "name": "Optio自托管AI智能体编排平台",
@@ -6252,7 +6609,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sdc9dc613c0",
-      "heat": 62
+      "heat": 61
     },
     {
       "name": "AI可定制自由职业者记账应用",
@@ -6269,7 +6626,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sd0b76248d1",
-      "heat": 62
+      "heat": 61
     },
     {
       "name": "本地AI初级工程师自动处理开发杂务",
@@ -6286,7 +6643,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sc5e09ab74a",
-      "heat": 62
+      "heat": 61
     },
     {
       "name": "AI代理确定性回放与工具沙箱",
@@ -6302,7 +6659,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s6e0d6648ca",
-      "heat": 62
+      "heat": 61
     },
     {
       "name": "为AI智能体重写Office三件套",
@@ -6320,7 +6677,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s246be37620",
-      "heat": 62
+      "heat": 61
     },
     {
       "name": "用LLM伪造工具输出红队测试AI监控",
@@ -6337,7 +6694,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s5f66ec35f4",
-      "heat": 62
+      "heat": 61
     },
     {
       "name": "iOS 模拟器 MCP 工具",
@@ -6354,7 +6711,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s6cfdebcc9f",
-      "heat": 62
+      "heat": 61
     },
     {
       "name": "开源AI网络安全防护平台",
@@ -6371,7 +6728,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s07a692a938",
-      "heat": 62
+      "heat": 61
     },
     {
       "name": "AI智能体自动做科研实验",
@@ -6388,7 +6745,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s2dc5e6631a",
-      "heat": 62
+      "heat": 61
     },
     {
       "name": "TaskWire：MCP 任务板管理 AI 智能体工作流",
@@ -6405,7 +6762,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s58f94382a6",
-      "heat": 62
+      "heat": 61
     },
     {
       "name": "Moli 无头浏览器",
@@ -6422,7 +6779,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s8ca17309fd",
-      "heat": 62
+      "heat": 61
     },
     {
       "name": "Telegram 播客 AI 摘要与时间戳跳转",
@@ -6439,7 +6796,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sd4b8f0cbe3",
-      "heat": 62
+      "heat": 61
     },
     {
       "name": "AgentGrid 人机协作工作台",
@@ -6457,7 +6814,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s4023692465",
-      "heat": 62
+      "heat": 61
     },
     {
       "name": "git-flow-next 工作流工具",
@@ -6473,7 +6830,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s98992dd156",
-      "heat": 62
+      "heat": 61
     },
     {
       "name": "Llama Windows 本地AI服务器",
@@ -6490,333 +6847,6 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sc8f297978d",
-      "heat": 62
-    },
-    {
-      "name": "AI编码代理编写YARA-L检测规则",
-      "desc": "教AI编码代理编写、审查、调优和转换Google SecOps的YARA-L 2.0检测规则",
-      "category": "编程开发",
-      "roles": [
-        "开发者",
-        "咨询/分析"
-      ],
-      "tools": "AgentSkill, YARA-L 2.0, Google Security ",
-      "source": "Hacker News (AI agent)",
-      "url": "https://github.com/ajaynyayapathi/yara-l-skill",
-      "date": "2026-10-25",
-      "_mentions": 1,
-      "_kind": "tech_blog_rss",
-      "id": "sdc18295ed9",
-      "heat": 61
-    },
-    {
-      "name": "Zephium：人机协作浏览器工作台",
-      "desc": "Rust 轻量浏览器，内置 AI 代理浏览引擎，人与多代理共享画布并行研究、构建",
-      "category": "自动化工作流",
-      "roles": [
-        "开发者",
-        "通用",
-        "学生/研究"
-      ],
-      "tools": "Zephium",
-      "source": "Hacker News (AI agent)",
-      "url": "https://github.com/zephium-browser/Zephium",
-      "date": "2026-10-25",
-      "_mentions": 1,
-      "_kind": "tech_blog_rss",
-      "id": "sb7816bf850",
-      "heat": 61
-    },
-    {
-      "name": "Protoshot 快速预览 UI 组件",
-      "desc": "扫描 CSS 与组件，写少量 JSX 即可预览 UI，免去配置浏览器自动化",
-      "category": "编程开发",
-      "roles": [
-        "开发者",
-        "设计师"
-      ],
-      "tools": "Protoshot",
-      "source": "Hacker News (AI agent)",
-      "url": "https://npmjs.com/protoshot",
-      "date": "2026-10-25",
-      "_mentions": 1,
-      "_kind": "tech_blog_rss",
-      "id": "s23e58b6f50",
-      "heat": 61
-    },
-    {
-      "name": "OneMemory：MCP 共享记忆",
-      "desc": "通过 MCP 为多个 AI 代理提供自托管的共享记忆，解决代理间上下文不互通问题",
-      "category": "自动化工作流",
-      "roles": [
-        "开发者",
-        "产品经理"
-      ],
-      "tools": "OneMemory, MCP",
-      "source": "Hacker News (AI agent)",
-      "url": "https://github.com/calasdan-sketch/onememory",
-      "date": "2026-10-25",
-      "_mentions": 1,
-      "_kind": "tech_blog_rss",
-      "id": "s3652b07b6c",
-      "heat": 61
-    },
-    {
-      "name": "AI代理发布前人工核验承诺",
-      "desc": "AI代理发帖前由Kane逐条核验承诺，确保内容真实可信，避免虚假宣传",
-      "category": "自动化工作流",
-      "roles": [
-        "开发者",
-        "运营/营销"
-      ],
-      "tools": "Omni Verify",
-      "source": "Hacker News (AI agent)",
-      "url": "https://github.com/DainoJung/omni-verify",
-      "date": "2026-10-25",
-      "_mentions": 1,
-      "_kind": "tech_blog_rss",
-      "id": "s6193cf9e64",
-      "heat": 61
-    },
-    {
-      "name": "用 WebMCP 让应用可被 AI 代理操作",
-      "desc": "分享 12 个应用接入 WebMCP 的实践经验，指导开发者让 AI 代理直接调用应用功能",
-      "category": "编程开发",
-      "roles": [
-        "开发者",
-        "产品经理"
-      ],
-      "tools": "WebMCP",
-      "source": "Hacker News (AI agent)",
-      "url": "https://mindoodb.com/blog/2026/10/27.10.2026090000KLEAGT/",
-      "date": "2026-10-25",
-      "_mentions": 1,
-      "_kind": "tech_blog_rss",
-      "id": "see1e5ebd84",
-      "heat": 61
-    },
-    {
-      "name": "让博客对AI代理可读",
-      "desc": "通过结构化改造博客内容，使AI代理能抓取并理解，提升被AI引用概率",
-      "category": "内容创作",
-      "roles": [
-        "开发者",
-        "运营/营销"
-      ],
-      "tools": "AI Agents",
-      "source": "Hacker News (AI agent)",
-      "url": "https://deallocatedobjects.com/posts/making-my-blog-readable-by-ai-agents",
-      "date": "2026-10-25",
-      "_mentions": 1,
-      "_kind": "tech_blog_rss",
-      "id": "scc6506f6ee",
-      "heat": 61
-    },
-    {
-      "name": "Sevenbox 追踪 AI 代理错误决策影响",
-      "desc": "定位 AI 代理错误决策波及的范围，帮助排查与修复问题",
-      "category": "自动化工作流",
-      "roles": [
-        "开发者",
-        "产品经理"
-      ],
-      "tools": "Sevenbox",
-      "source": "Hacker News (AI agent)",
-      "url": "https://github.com/sevenboxlabs/sevenbox",
-      "date": "2026-10-25",
-      "_mentions": 1,
-      "_kind": "tech_blog_rss",
-      "id": "sa4bfbf02d4",
-      "heat": 61
-    },
-    {
-      "name": "在应用内嵌 Claude Code",
-      "desc": "用 npx genaicode embed 把 Claude Code 嵌入自己的应用，用于开发、日常运维和任务自动化",
-      "category": "编程开发",
-      "roles": [
-        "开发者",
-        "创业者"
-      ],
-      "tools": "Claude Code, genaicode",
-      "source": "Hacker News (AI agent)",
-      "url": "https://github.com/gtanczyk/genaicode",
-      "date": "2026-10-25",
-      "_mentions": 1,
-      "_kind": "tech_blog_rss",
-      "id": "s69db7ba19f",
-      "heat": 61
-    },
-    {
-      "name": "AI代理相亲节目Botchelor",
-      "desc": "AI代理通过MCP携带自定义角色参与模拟约会节目，展示多代理互动玩法",
-      "category": "生活娱乐",
-      "roles": [
-        "开发者",
-        "通用"
-      ],
-      "tools": "MCP",
-      "source": "Hacker News (AI agent)",
-      "url": "https://botchelor.com/gate?from=%2Fagents",
-      "date": "2026-10-25",
-      "_mentions": 1,
-      "_kind": "tech_blog_rss",
-      "id": "sb526f940a9",
-      "heat": 61
-    },
-    {
-      "name": "AI 代理驱动开源参数化 CAD",
-      "desc": "Loböle 是开源参数化 CAD，GUI、Python 脚本和 AI 代理共用同一套命令，Claude 可写脚本建模",
-      "category": "编程开发",
-      "roles": [
-        "开发者",
-        "设计师",
-        "产品经理"
-      ],
-      "tools": "Loböle, Claude",
-      "source": "Hacker News (AI agent)",
-      "url": "https://github.com/eliasaronson/lobole",
-      "date": "2026-10-25",
-      "_mentions": 1,
-      "_kind": "tech_blog_rss",
-      "id": "s9f81aec840",
-      "heat": 61
-    },
-    {
-      "name": "AI 智能体集群验证 CVE 可利用性",
-      "desc": "用多智能体集群在自有环境中自动测试新披露 CVE 是否可被利用，辅助漏洞验证与修复优先级判断",
-      "category": "自动化工作流",
-      "roles": [
-        "开发者",
-        "咨询/分析"
-      ],
-      "tools": "AI agent swarms",
-      "source": "Hacker News (AI agent)",
-      "url": "https://app.enclave.ai/threat-feed",
-      "date": "2026-10-25",
-      "_mentions": 1,
-      "_kind": "tech_blog_rss",
-      "id": "s3cb1dd7644",
-      "heat": 61
-    },
-    {
-      "name": "AI代理零信任系统调用防护",
-      "desc": "为AI代理提供零信任OS系统调用与Shell防御，限制其系统级操作权限",
-      "category": "自动化工作流",
-      "roles": [
-        "开发者",
-        "创业者"
-      ],
-      "tools": "AegisKernel",
-      "source": "Hacker News (AI agent)",
-      "url": "https://github.com/adikshatriyag-crypto/aegis-kernel",
-      "date": "2026-10-25",
-      "_mentions": 1,
-      "_kind": "tech_blog_rss",
-      "id": "s29e700f818",
-      "heat": 61
-    },
-    {
-      "name": "Canva Craft 提示词生成可编辑设计图",
-      "desc": "输入提示词即可生成可直接编辑的设计图片，解决从想法到设计稿的转化问题",
-      "category": "内容创作",
-      "roles": [
-        "设计师",
-        "运营/营销",
-        "通用"
-      ],
-      "tools": "Canva Craft",
-      "source": "Product Hunt",
-      "url": "https://www.producthunt.com/products/canva",
-      "date": "2026-10-25",
-      "_mentions": 1,
-      "_kind": "tech_blog_rss",
-      "id": "s56d5cd91a7",
-      "heat": 61
-    },
-    {
-      "name": "1Password 让 AI 代理安全登录",
-      "desc": "AI 代理可代用户登录网站而不接触明文密码，解决自动化操作中的凭证安全问题",
-      "category": "自动化工作流",
-      "roles": [
-        "开发者",
-        "通用"
-      ],
-      "tools": "1Password for Agents",
-      "source": "Product Hunt",
-      "url": "https://www.producthunt.com/products/1password",
-      "date": "2026-10-25",
-      "_mentions": 1,
-      "_kind": "tech_blog_rss",
-      "id": "s01315e94ec",
-      "heat": 61
-    },
-    {
-      "name": "sideOS.ai 本地AI助手",
-      "desc": "本地运行的AI工具，支持语音听写、会议记录、后台任务等，保护隐私",
-      "category": "办公效率",
-      "roles": [
-        "通用",
-        "产品经理",
-        "运营/营销"
-      ],
-      "tools": "sideOS.ai",
-      "source": "Product Hunt",
-      "url": "https://www.producthunt.com/products/sideos-ai",
-      "date": "2026-10-25",
-      "_mentions": 1,
-      "_kind": "tech_blog_rss",
-      "id": "s86e0a08541",
-      "heat": 61
-    },
-    {
-      "name": "zCAD AI 生成可制造3D零件",
-      "desc": "用AI生成真实可制造的3D零件模型，而非仅外观形状，辅助CAD设计",
-      "category": "内容创作",
-      "roles": [
-        "设计师",
-        "开发者",
-        "产品经理"
-      ],
-      "tools": "zCAD AI",
-      "source": "Product Hunt",
-      "url": "https://www.producthunt.com/products/zcad-ai",
-      "date": "2026-10-25",
-      "_mentions": 1,
-      "_kind": "tech_blog_rss",
-      "id": "s353bcc90dc",
-      "heat": 61
-    },
-    {
-      "name": "Mac刘海屏监控Claude Code代理",
-      "desc": "在Mac刘海区域实时查看所有Claude Code代理运行状态，方便多任务监控",
-      "category": "编程开发",
-      "roles": [
-        "开发者"
-      ],
-      "tools": "Claude Code, AgentValley",
-      "source": "Product Hunt",
-      "url": "https://www.producthunt.com/products/agentvalley",
-      "date": "2026-10-25",
-      "_mentions": 1,
-      "_kind": "tech_blog_rss",
-      "id": "se90f37d97a",
-      "heat": 61
-    },
-    {
-      "name": "用提示词让 AI 扩展游戏多人模式",
-      "desc": "通过一段提示词让 Claude 新增四人地图并改造 WebSocket 联机逻辑，支持分享链接加入",
-      "category": "编程开发",
-      "roles": [
-        "开发者",
-        "产品经理"
-      ],
-      "tools": "Claude Opus 5.5, battledrones",
-      "source": "Simon Willison",
-      "url": "https://simonwillison.net/2026/Oct/24/battledrones/",
-      "date": "2026-10-25",
-      "_mentions": 1,
-      "_kind": "tech_blog_rss",
-      "id": "sa987bf146f",
       "heat": 61
     },
     {
@@ -8174,6 +8204,333 @@
       "heat": 61
     },
     {
+      "name": "AI编码代理编写YARA-L检测规则",
+      "desc": "教AI编码代理编写、审查、调优和转换Google SecOps的YARA-L 2.0检测规则",
+      "category": "编程开发",
+      "roles": [
+        "开发者",
+        "咨询/分析"
+      ],
+      "tools": "AgentSkill, YARA-L 2.0, Google Security ",
+      "source": "Hacker News (AI agent)",
+      "url": "https://github.com/ajaynyayapathi/yara-l-skill",
+      "date": "2026-10-25",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "sdc18295ed9",
+      "heat": 60
+    },
+    {
+      "name": "Zephium：人机协作浏览器工作台",
+      "desc": "Rust 轻量浏览器，内置 AI 代理浏览引擎，人与多代理共享画布并行研究、构建",
+      "category": "自动化工作流",
+      "roles": [
+        "开发者",
+        "通用",
+        "学生/研究"
+      ],
+      "tools": "Zephium",
+      "source": "Hacker News (AI agent)",
+      "url": "https://github.com/zephium-browser/Zephium",
+      "date": "2026-10-25",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "sb7816bf850",
+      "heat": 60
+    },
+    {
+      "name": "Protoshot 快速预览 UI 组件",
+      "desc": "扫描 CSS 与组件，写少量 JSX 即可预览 UI，免去配置浏览器自动化",
+      "category": "编程开发",
+      "roles": [
+        "开发者",
+        "设计师"
+      ],
+      "tools": "Protoshot",
+      "source": "Hacker News (AI agent)",
+      "url": "https://npmjs.com/protoshot",
+      "date": "2026-10-25",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "s23e58b6f50",
+      "heat": 60
+    },
+    {
+      "name": "OneMemory：MCP 共享记忆",
+      "desc": "通过 MCP 为多个 AI 代理提供自托管的共享记忆，解决代理间上下文不互通问题",
+      "category": "自动化工作流",
+      "roles": [
+        "开发者",
+        "产品经理"
+      ],
+      "tools": "OneMemory, MCP",
+      "source": "Hacker News (AI agent)",
+      "url": "https://github.com/calasdan-sketch/onememory",
+      "date": "2026-10-25",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "s3652b07b6c",
+      "heat": 60
+    },
+    {
+      "name": "AI代理发布前人工核验承诺",
+      "desc": "AI代理发帖前由Kane逐条核验承诺，确保内容真实可信，避免虚假宣传",
+      "category": "自动化工作流",
+      "roles": [
+        "开发者",
+        "运营/营销"
+      ],
+      "tools": "Omni Verify",
+      "source": "Hacker News (AI agent)",
+      "url": "https://github.com/DainoJung/omni-verify",
+      "date": "2026-10-25",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "s6193cf9e64",
+      "heat": 60
+    },
+    {
+      "name": "用 WebMCP 让应用可被 AI 代理操作",
+      "desc": "分享 12 个应用接入 WebMCP 的实践经验，指导开发者让 AI 代理直接调用应用功能",
+      "category": "编程开发",
+      "roles": [
+        "开发者",
+        "产品经理"
+      ],
+      "tools": "WebMCP",
+      "source": "Hacker News (AI agent)",
+      "url": "https://mindoodb.com/blog/2026/10/27.10.2026090000KLEAGT/",
+      "date": "2026-10-25",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "see1e5ebd84",
+      "heat": 60
+    },
+    {
+      "name": "让博客对AI代理可读",
+      "desc": "通过结构化改造博客内容，使AI代理能抓取并理解，提升被AI引用概率",
+      "category": "内容创作",
+      "roles": [
+        "开发者",
+        "运营/营销"
+      ],
+      "tools": "AI Agents",
+      "source": "Hacker News (AI agent)",
+      "url": "https://deallocatedobjects.com/posts/making-my-blog-readable-by-ai-agents",
+      "date": "2026-10-25",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "scc6506f6ee",
+      "heat": 60
+    },
+    {
+      "name": "Sevenbox 追踪 AI 代理错误决策影响",
+      "desc": "定位 AI 代理错误决策波及的范围，帮助排查与修复问题",
+      "category": "自动化工作流",
+      "roles": [
+        "开发者",
+        "产品经理"
+      ],
+      "tools": "Sevenbox",
+      "source": "Hacker News (AI agent)",
+      "url": "https://github.com/sevenboxlabs/sevenbox",
+      "date": "2026-10-25",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "sa4bfbf02d4",
+      "heat": 60
+    },
+    {
+      "name": "在应用内嵌 Claude Code",
+      "desc": "用 npx genaicode embed 把 Claude Code 嵌入自己的应用，用于开发、日常运维和任务自动化",
+      "category": "编程开发",
+      "roles": [
+        "开发者",
+        "创业者"
+      ],
+      "tools": "Claude Code, genaicode",
+      "source": "Hacker News (AI agent)",
+      "url": "https://github.com/gtanczyk/genaicode",
+      "date": "2026-10-25",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "s69db7ba19f",
+      "heat": 60
+    },
+    {
+      "name": "AI代理相亲节目Botchelor",
+      "desc": "AI代理通过MCP携带自定义角色参与模拟约会节目，展示多代理互动玩法",
+      "category": "生活娱乐",
+      "roles": [
+        "开发者",
+        "通用"
+      ],
+      "tools": "MCP",
+      "source": "Hacker News (AI agent)",
+      "url": "https://botchelor.com/gate?from=%2Fagents",
+      "date": "2026-10-25",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "sb526f940a9",
+      "heat": 60
+    },
+    {
+      "name": "AI 代理驱动开源参数化 CAD",
+      "desc": "Loböle 是开源参数化 CAD，GUI、Python 脚本和 AI 代理共用同一套命令，Claude 可写脚本建模",
+      "category": "编程开发",
+      "roles": [
+        "开发者",
+        "设计师",
+        "产品经理"
+      ],
+      "tools": "Loböle, Claude",
+      "source": "Hacker News (AI agent)",
+      "url": "https://github.com/eliasaronson/lobole",
+      "date": "2026-10-25",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "s9f81aec840",
+      "heat": 60
+    },
+    {
+      "name": "AI 智能体集群验证 CVE 可利用性",
+      "desc": "用多智能体集群在自有环境中自动测试新披露 CVE 是否可被利用，辅助漏洞验证与修复优先级判断",
+      "category": "自动化工作流",
+      "roles": [
+        "开发者",
+        "咨询/分析"
+      ],
+      "tools": "AI agent swarms",
+      "source": "Hacker News (AI agent)",
+      "url": "https://app.enclave.ai/threat-feed",
+      "date": "2026-10-25",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "s3cb1dd7644",
+      "heat": 60
+    },
+    {
+      "name": "AI代理零信任系统调用防护",
+      "desc": "为AI代理提供零信任OS系统调用与Shell防御，限制其系统级操作权限",
+      "category": "自动化工作流",
+      "roles": [
+        "开发者",
+        "创业者"
+      ],
+      "tools": "AegisKernel",
+      "source": "Hacker News (AI agent)",
+      "url": "https://github.com/adikshatriyag-crypto/aegis-kernel",
+      "date": "2026-10-25",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "s29e700f818",
+      "heat": 60
+    },
+    {
+      "name": "Canva Craft 提示词生成可编辑设计图",
+      "desc": "输入提示词即可生成可直接编辑的设计图片，解决从想法到设计稿的转化问题",
+      "category": "内容创作",
+      "roles": [
+        "设计师",
+        "运营/营销",
+        "通用"
+      ],
+      "tools": "Canva Craft",
+      "source": "Product Hunt",
+      "url": "https://www.producthunt.com/products/canva",
+      "date": "2026-10-25",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "s56d5cd91a7",
+      "heat": 60
+    },
+    {
+      "name": "1Password 让 AI 代理安全登录",
+      "desc": "AI 代理可代用户登录网站而不接触明文密码，解决自动化操作中的凭证安全问题",
+      "category": "自动化工作流",
+      "roles": [
+        "开发者",
+        "通用"
+      ],
+      "tools": "1Password for Agents",
+      "source": "Product Hunt",
+      "url": "https://www.producthunt.com/products/1password",
+      "date": "2026-10-25",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "s01315e94ec",
+      "heat": 60
+    },
+    {
+      "name": "sideOS.ai 本地AI助手",
+      "desc": "本地运行的AI工具，支持语音听写、会议记录、后台任务等，保护隐私",
+      "category": "办公效率",
+      "roles": [
+        "通用",
+        "产品经理",
+        "运营/营销"
+      ],
+      "tools": "sideOS.ai",
+      "source": "Product Hunt",
+      "url": "https://www.producthunt.com/products/sideos-ai",
+      "date": "2026-10-25",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "s86e0a08541",
+      "heat": 60
+    },
+    {
+      "name": "zCAD AI 生成可制造3D零件",
+      "desc": "用AI生成真实可制造的3D零件模型，而非仅外观形状，辅助CAD设计",
+      "category": "内容创作",
+      "roles": [
+        "设计师",
+        "开发者",
+        "产品经理"
+      ],
+      "tools": "zCAD AI",
+      "source": "Product Hunt",
+      "url": "https://www.producthunt.com/products/zcad-ai",
+      "date": "2026-10-25",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "s353bcc90dc",
+      "heat": 60
+    },
+    {
+      "name": "Mac刘海屏监控Claude Code代理",
+      "desc": "在Mac刘海区域实时查看所有Claude Code代理运行状态，方便多任务监控",
+      "category": "编程开发",
+      "roles": [
+        "开发者"
+      ],
+      "tools": "Claude Code, AgentValley",
+      "source": "Product Hunt",
+      "url": "https://www.producthunt.com/products/agentvalley",
+      "date": "2026-10-25",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "se90f37d97a",
+      "heat": 60
+    },
+    {
+      "name": "用提示词让 AI 扩展游戏多人模式",
+      "desc": "通过一段提示词让 Claude 新增四人地图并改造 WebSocket 联机逻辑，支持分享链接加入",
+      "category": "编程开发",
+      "roles": [
+        "开发者",
+        "产品经理"
+      ],
+      "tools": "Claude Opus 5.5, battledrones",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Oct/24/battledrones/",
+      "date": "2026-10-25",
+      "_mentions": 1,
+      "_kind": "tech_blog_rss",
+      "id": "sa987bf146f",
+      "heat": 60
+    },
+    {
       "name": "为AI智能体搭建协作房间",
       "desc": "创建共享空间让多个AI智能体协同工作，解决单智能体任务受限问题",
       "category": "自动化工作流",
@@ -8188,7 +8545,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sc5969ea768",
-      "heat": 60
+      "heat": 59
     },
     {
       "name": "Algernon：AI代理合规安全预言机",
@@ -8205,7 +8562,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s40b2d35cde",
-      "heat": 60
+      "heat": 59
     },
     {
       "name": "Soma：为AI代理提供记忆与证明",
@@ -8222,7 +8579,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sa06604deb7",
-      "heat": 60
+      "heat": 59
     },
     {
       "name": "AgentProbe：用故障注入测试AI智能体",
@@ -8239,7 +8596,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sd3fdd71055",
-      "heat": 60
+      "heat": 59
     },
     {
       "name": "多智能体模拟陪审团审判",
@@ -8257,7 +8614,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s37144c2a92",
-      "heat": 60
+      "heat": 59
     },
     {
       "name": "AI生成交互式网页故事",
@@ -8275,7 +8632,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sf7a4029612",
-      "heat": 60
+      "heat": 59
     },
     {
       "name": "VPS 无人值守运行 AI 智能体",
@@ -8292,7 +8649,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s367e83cb32",
-      "heat": 60
+      "heat": 59
     },
     {
       "name": "1Password 面向 AI Agent 的凭据管理",
@@ -8309,7 +8666,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sd56d1edcc0",
-      "heat": 60
+      "heat": 59
     },
     {
       "name": "多智能体协作防死循环设计",
@@ -8326,7 +8683,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s87fca27a99",
-      "heat": 60
+      "heat": 59
     },
     {
       "name": "开源移动端MCP与AI Agent",
@@ -8343,7 +8700,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s09106b6802",
-      "heat": 60
+      "heat": 59
     },
     {
       "name": "Koala：在macOS隔离虚拟机中运行AI代理",
@@ -8360,7 +8717,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s2c23a4dde3",
-      "heat": 60
+      "heat": 59
     },
     {
       "name": "让AI编码循环收敛的实践方法",
@@ -8377,7 +8734,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s3216b2cc8e",
-      "heat": 60
+      "heat": 59
     },
     {
       "name": "Gsearch：为AI代理提供真实谷歌搜索的MCP",
@@ -8394,7 +8751,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s2e340ebfd2",
-      "heat": 60
+      "heat": 59
     },
     {
       "name": "Google Ads 41个AI代理自动化投放",
@@ -8411,7 +8768,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s63340eea95",
-      "heat": 60
+      "heat": 59
     },
     {
       "name": "Nvidia Sentry 运行时保护 AI 智能体",
@@ -8428,7 +8785,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s03dea318fa",
-      "heat": 60
+      "heat": 59
     },
     {
       "name": "用AI机器人自动核查选举信息",
@@ -8445,7 +8802,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s010a3318aa",
-      "heat": 60
+      "heat": 59
     },
     {
       "name": "Kavela 云端 AI 自动化工作流平台",
@@ -8463,7 +8820,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sbbf79eb68d",
-      "heat": 60
+      "heat": 59
     },
     {
       "name": "AI代理SQL执行前校验",
@@ -8480,7 +8837,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sdc1c20ed67",
-      "heat": 60
+      "heat": 59
     },
     {
       "name": "开发者必备的AI Agent技能",
@@ -8496,7 +8853,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s6d62b71820",
-      "heat": 60
+      "heat": 59
     },
     {
       "name": "闲置电脑组网跑AI编程代理",
@@ -8513,7 +8870,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sed5205b9d2",
-      "heat": 60
+      "heat": 59
     },
     {
       "name": "FLUX 3 Max 极速生成10秒视频",
@@ -8531,7 +8888,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s266472d1ad",
-      "heat": 60
+      "heat": 59
     },
     {
       "name": "像审PR一样审AI代理Markdown规范",
@@ -8548,7 +8905,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s50a40541e8",
-      "heat": 60
+      "heat": 59
     },
     {
       "name": "Peras 暂停 AI 编程助手",
@@ -8564,7 +8921,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sb0c83fc3a3",
-      "heat": 60
+      "heat": 59
     },
     {
       "name": "手机远程应答编程Agent",
@@ -8580,7 +8937,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sf83aa91e54",
-      "heat": 60
+      "heat": 59
     },
     {
       "name": "ElevenLabs 实时语音智能体",
@@ -8597,7 +8954,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sef2bf5429b",
-      "heat": 60
+      "heat": 59
     },
     {
       "name": "MOVO AI 移动端长视频生成",
@@ -8615,7 +8972,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sa08931cc07",
-      "heat": 60
+      "heat": 59
     },
     {
       "name": "AI代理上iPhone锁屏",
@@ -8632,7 +8989,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sef4641eb03",
-      "heat": 60
+      "heat": 59
     },
     {
       "name": "Mac本地私有ChatGPT替代Gerty",
@@ -8649,7 +9006,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s1d6fb204fc",
-      "heat": 60
+      "heat": 59
     },
     {
       "name": "Plango：用AI对抗AI",
@@ -8665,7 +9022,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "se591be6e67",
-      "heat": 60
+      "heat": 59
     },
     {
       "name": "Claude Code 会话宠物 Bloblings",
@@ -8681,7 +9038,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sc6defb3e78",
-      "heat": 60
+      "heat": 59
     },
     {
       "name": "Dots Phone 电话呼叫插件",
@@ -8698,7 +9055,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "sacdee9779d",
-      "heat": 60
+      "heat": 59
     },
     {
       "name": "Context Engine 共享记忆",
@@ -8716,7 +9073,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s3ce1682562",
-      "heat": 60
+      "heat": 59
     },
     {
       "name": "本地文件AI极速搜索",
@@ -8734,7 +9091,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "se4cc04989b",
-      "heat": 60
+      "heat": 59
     },
     {
       "name": "照片秒变油画效果工具",
@@ -8751,7 +9108,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s0b1e6633da",
-      "heat": 60
+      "heat": 59
     },
     {
       "name": "Kimi K3.1 Pro API 接入试用",
@@ -8768,7 +9125,7 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s262c1f1ebb",
-      "heat": 60
+      "heat": 59
     },
     {
       "name": "TenseMem：AI代理确定性记忆",
@@ -9144,77 +9501,6 @@
       "_mentions": 1,
       "_kind": "tech_blog_rss",
       "id": "s54a5ee5be0",
-      "heat": 59
-    },
-    {
-      "name": "Harness²自改进智能体框架",
-      "desc": "无需训练即可让AI智能体自我改进，通过双层框架提升任务表现",
-      "category": "自动化工作流",
-      "roles": [
-        "开发者",
-        "学生/研究"
-      ],
-      "tools": "Harness²",
-      "source": "Prompt Engineering",
-      "url": "https://www.youtube.com/watch?v=pW2ktrJlsyE",
-      "date": "2026-10-25",
-      "_mentions": 1,
-      "_kind": "youtube",
-      "id": "s41e335e84b",
-      "heat": 59
-    },
-    {
-      "name": "TimesFM 3.0 时间序列预测模型",
-      "desc": "谷歌开源的时间序列基础模型，可用于预测趋势、辅助分析与决策",
-      "category": "数据分析",
-      "roles": [
-        "咨询/分析",
-        "开发者",
-        "学生/研究"
-      ],
-      "tools": "TimesFM",
-      "source": "Prompt Engineering",
-      "url": "https://www.youtube.com/watch?v=ByKEkRohzt8",
-      "date": "2026-10-25",
-      "_mentions": 1,
-      "_kind": "youtube",
-      "id": "s15ba286295",
-      "heat": 59
-    },
-    {
-      "name": "Claude Duet 主动式智能体",
-      "desc": "Anthropic 推出的主动式 AI 智能体，可自主感知上下文并主动执行任务，减少手动指令。",
-      "category": "自动化工作流",
-      "roles": [
-        "开发者",
-        "产品经理",
-        "通用"
-      ],
-      "tools": "Claude Duet, Anthropic",
-      "source": "Prompt Engineering",
-      "url": "https://www.youtube.com/shorts/0sI-GTYetD8",
-      "date": "2026-10-25",
-      "_mentions": 1,
-      "_kind": "youtube",
-      "id": "s6e7939bad1",
-      "heat": 59
-    },
-    {
-      "name": "TabFM 表格基础模型",
-      "desc": "用表格数据直接做预测分析，无需训练即可在电子表格中完成建模",
-      "category": "数据分析",
-      "roles": [
-        "咨询/分析",
-        "产品经理",
-        "通用"
-      ],
-      "tools": "TabFM, Google",
-      "source": "Prompt Engineering",
-      "url": "https://www.youtube.com/watch?v=5YJGDElbCDY",
-      "date": "2026-10-25",
-      "_mentions": 1,
-      "_kind": "youtube",
-      "id": "s5466a41778",
       "heat": 59
     },
     {
@@ -57485,6 +57771,77 @@
       "_kind": "tech_blog_rss",
       "id": "s2277de3fc8",
       "heat": 59
+    },
+    {
+      "name": "Harness²自改进智能体框架",
+      "desc": "无需训练即可让AI智能体自我改进，通过双层框架提升任务表现",
+      "category": "自动化工作流",
+      "roles": [
+        "开发者",
+        "学生/研究"
+      ],
+      "tools": "Harness²",
+      "source": "Prompt Engineering",
+      "url": "https://www.youtube.com/watch?v=pW2ktrJlsyE",
+      "date": "2026-10-25",
+      "_mentions": 1,
+      "_kind": "youtube",
+      "id": "s41e335e84b",
+      "heat": 58
+    },
+    {
+      "name": "TimesFM 3.0 时间序列预测模型",
+      "desc": "谷歌开源的时间序列基础模型，可用于预测趋势、辅助分析与决策",
+      "category": "数据分析",
+      "roles": [
+        "咨询/分析",
+        "开发者",
+        "学生/研究"
+      ],
+      "tools": "TimesFM",
+      "source": "Prompt Engineering",
+      "url": "https://www.youtube.com/watch?v=ByKEkRohzt8",
+      "date": "2026-10-25",
+      "_mentions": 1,
+      "_kind": "youtube",
+      "id": "s15ba286295",
+      "heat": 58
+    },
+    {
+      "name": "Claude Duet 主动式智能体",
+      "desc": "Anthropic 推出的主动式 AI 智能体，可自主感知上下文并主动执行任务，减少手动指令。",
+      "category": "自动化工作流",
+      "roles": [
+        "开发者",
+        "产品经理",
+        "通用"
+      ],
+      "tools": "Claude Duet, Anthropic",
+      "source": "Prompt Engineering",
+      "url": "https://www.youtube.com/shorts/0sI-GTYetD8",
+      "date": "2026-10-25",
+      "_mentions": 1,
+      "_kind": "youtube",
+      "id": "s6e7939bad1",
+      "heat": 58
+    },
+    {
+      "name": "TabFM 表格基础模型",
+      "desc": "用表格数据直接做预测分析，无需训练即可在电子表格中完成建模",
+      "category": "数据分析",
+      "roles": [
+        "咨询/分析",
+        "产品经理",
+        "通用"
+      ],
+      "tools": "TabFM, Google",
+      "source": "Prompt Engineering",
+      "url": "https://www.youtube.com/watch?v=5YJGDElbCDY",
+      "date": "2026-10-25",
+      "_mentions": 1,
+      "_kind": "youtube",
+      "id": "s5466a41778",
+      "heat": 58
     },
     {
       "name": "谷歌新模型5个提示词玩法",
